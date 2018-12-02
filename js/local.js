@@ -21,12 +21,24 @@ function compressString(decompressedString){
 
 function deserialize(inputstring) {
   try {
-    let decodedArray = base64js.toByteArray(inputstring)
+    let padding = 4-(inputstring.length)%4
+    let pads = ""
+    if (padding == 1) {
+      pads = "="
+    }
+    if (padding == 2) {
+      pads = "=="
+    }
+    if (padding == 3) {
+      pads = "==="
+    }
+    let decodedArray = base64js.toByteArray(inputstring+pads)
     let decompressedArray = pako.inflate(decodedArray)
     let objectString = arrayToString(decompressedArray)
     return JSON.parse(objectString)
   }
   catch(err) {
+    console.log(err)
     return {}
   }
 }
@@ -38,6 +50,7 @@ function serialize(dict) {
     return base64js.fromByteArray(compressedArray)
   }
   catch(err){
+    console.log(err)
     return ""
   }
 }
