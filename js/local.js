@@ -47,7 +47,8 @@ function serialize(dict) {
     let inputstring = JSON.stringify(dict)
     let decompressedArray = stringToArray(inputstring)
     let compressedArray = pako.deflate(decompressedArray)
-    return base64js.fromByteArray(compressedArray)
+    let padded = base64js.fromByteArray(compressedArray)
+    return padded.split('=')[0]
   }
   catch(err){
     console.log(err)
