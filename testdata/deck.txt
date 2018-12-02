@@ -1,0 +1,27 @@
+7 Island (RIX) 193
+8 Mountain (RIX) 195
+1 Capture Sphere (GRN) 31
+2 Dimir Informant (GRN) 36
+1 Nightveil Sprite (GRN) 48
+2 Unexplained Disappearance (GRN) 56
+1 Command the Storm (GRN) 94
+1 Cosmotronic Wave (GRN) 95
+1 Direct Current (GRN) 96
+1 Electrostatic Field (GRN) 97
+2 Fire Urchin (GRN) 101
+1 Gravitic Punch (GRN) 105
+1 Ornery Goblin (GRN) 112
+1 Sure Strike (GRN) 118
+1 Goblin Electromancer (GRN) 174
+1 Hypothesizzle (GRN) 178
+1 Wee Dragonauts (GRN) 214
+1 Fresh-Faced Recruit (GRN) 216
+1 Connive // Concoct (GRN) 222
+1 Discovery // Dispersal (GRN) 223
+1 Expansion // Explosion (GRN) 224
+1 Izzet Locket (GRN) 238
+1 Izzet Guildgate (GRN) 251
+1 Izzet Guildgate (GRN) 252
+
+
+1 Healer's Hawk (GRN) 14

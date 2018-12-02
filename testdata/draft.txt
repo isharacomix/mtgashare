@@ -1,0 +1,416 @@
+Event #: 1
+Time:    1/1/2018 1:11:11 PM
+Players:
+--> me
+    bot
+    bot
+    bot
+    bot
+    bot
+    bot
+    bot
+
+------ DAR ------
+
+Pack 1 pick 1:
+    Blink of an Eye
+    Ghitu Journeymage
+    Bloodtallow Candle
+    Llanowar Scout
+    Pardic Wanderer
+    Aven Sentry
+    Llanowar Envoy
+    Eviscerate
+    Baloth Gorger
+    Charge
+    Adeliz, the Cinder Wind
+    Fungal Plots
+    Knight of Malice
+--> Helm of the Host
+
+Pack 1 pick 2:
+    Sergeant-at-Arms
+    Pardic Wanderer
+    Opt
+    Frenzied Rage
+    Skittering Surveyor
+    Rat Colony
+    Mammoth Spider
+--> Deathbloom Thallid
+    Keldon Warcaller
+    Powerstone Shard
+    Skizzik
+    Goblin Barrage
+    Sorcerer's Wand
+
+Pack 1 pick 3:
+    Navigator's Compass
+    Homarid Explorer
+    Aven Sentry
+    Knight of New Benalia
+    Gaea's Protector
+    Serra Disciple
+    Rat Colony
+    Keldon Warcaller
+    Arcane Flight
+--> Baird, Steward of Argive
+    Damping Sphere
+    Urza's Tome
+
+Pack 1 pick 4:
+--> Deathbloom Thallid
+    Frenzied Rage
+    Fiery Intervention
+    Fervent Strike
+    Knight of New Benalia
+    Unwind
+    Keldon Raider
+    Aesthir Glider
+    Adventurous Impulse
+    Sage of Lat-Nam
+    The First Eruption
+
+Pack 1 pick 5:
+    Invoke the Divine
+    Cabal Evangel
+    Keldon Raider
+    Arbor Armament
+    Keldon Warcaller
+    Thallid Omnivore
+    Aven Sentry
+    Syncopate
+--> Fungal Plots
+    Karn's Temporal Sundering
+
+Pack 1 pick 6:
+    Drudge Sentinel
+    Rat Colony
+    Dub
+    Opt
+    Bloodtallow Candle
+--> Mammoth Spider
+    Cabal Paladin
+    Damping Sphere
+    Urza's Tome
+
+Pack 1 pick 7:
+    Artificer's Assistant
+    Serra Disciple
+    Drudge Sentinel
+    Windgrace Acolyte
+    Charge
+    Corrosive Ooze
+--> Sparring Construct
+    Gaea's Blessing
+
+Pack 1 pick 8:
+    Arcane Flight
+    Unwind
+--> Llanowar Scout
+    Charge
+    Demonic Vigor
+    Cabal Paladin
+    Fire Elemental
+
+Pack 1 pick 9:
+    Bloodtallow Candle
+    Llanowar Scout
+--> Pardic Wanderer
+    Llanowar Envoy
+    Charge
+    Fungal Plots
+
+Pack 1 pick 10:
+    Pardic Wanderer
+    Frenzied Rage
+    Rat Colony
+--> Powerstone Shard
+    Sorcerer's Wand
+
+Pack 1 pick 11:
+    Homarid Explorer
+--> Gaea's Protector
+    Rat Colony
+    Arcane Flight
+
+Pack 1 pick 12:
+    Fervent Strike
+    Unwind
+--> Sage of Lat-Nam
+
+Pack 1 pick 13:
+--> Arbor Armament
+    Syncopate
+
+Pack 1 pick 14:
+--> Rat Colony
+
+------ DAR ------
+
+Pack 2 pick 1:
+    Artificer's Assistant
+    Call the Cavalry
+    Guardians of Koilos
+    Divest
+    Radiating Lightning
+    Keldon Raider
+    Corrosive Ooze
+    Feral Abomination
+    Ghitu Journeymage
+--> Llanowar Elves
+    Hallar, the Firefletcher
+    The Eldest Reborn
+    Curator's Ward
+    Cabal Stronghold
+
+Pack 2 pick 2:
+    Dark Bargain
+    Shivan Fire
+    Arbor Armament
+    Benalish Honor Guard
+    Cabal Paladin
+    Artificer's Assistant
+    Navigator's Compass
+    Divest
+    Bloodtallow Candle
+    Rona, Disciple of Gix
+    Goblin Barrage
+    Sorcerer's Wand
+--> Territorial Allosaurus
+
+Pack 2 pick 3:
+    Call the Cavalry
+    Opt
+    Artificer's Assistant
+    Frenzied Rage
+    Stronghold Confessor
+    Deathbloom Thallid
+    D'Avenant Trapper
+    Charge
+    Shivan Fire
+--> Kwende, Pride of Femeref
+    Knight of Grace
+    Shield of the Realm
+
+Pack 2 pick 4:
+    Bloodtallow Candle
+    Mesa Unicorn
+    Gift of Growth
+    Demonic Vigor
+    Divination
+    Feral Abomination
+--> Thallid Omnivore
+    Unwind
+    Radiating Lightning
+    Seal Away
+    Zhalfirin Void
+
+Pack 2 pick 5:
+    Windgrace Acolyte
+    Frenzied Rage
+    Tolarian Scholar
+    Skirk Prospector
+--> Ancient Animus
+    Dark Bargain
+    Cabal Evangel
+    Knight of New Benalia
+    Powerstone Shard
+    Dauntless Bodyguard
+
+Pack 2 pick 6:
+    Keldon Overseer
+    Vodalian Arcanist
+--> Sparring Construct
+    Unwind
+    Radiating Lightning
+    Powerstone Shard
+    Knight of New Benalia
+    Diligent Excavator
+    Champion of the Flame
+
+Pack 2 pick 7:
+--> Baloth Gorger
+    Drudge Sentinel
+    Unwind
+    Frenzied Rage
+    Cabal Paladin
+    Adamant Will
+    Broken Bond
+    Gideon's Reproach
+
+Pack 2 pick 8:
+--> Serra Disciple
+    Llanowar Scout
+    Feral Abomination
+    Seismic Shift
+    Arcane Flight
+    Diligent Excavator
+    Champion of the Flame
+
+Pack 2 pick 9:
+    Artificer's Assistant
+    Radiating Lightning
+    Corrosive Ooze
+--> Feral Abomination
+    Ghitu Journeymage
+    Curator's Ward
+
+Pack 2 pick 10:
+--> Arbor Armament
+    Cabal Paladin
+    Artificer's Assistant
+    Navigator's Compass
+    Divest
+
+Pack 2 pick 11:
+    Artificer's Assistant
+    Frenzied Rage
+--> D'Avenant Trapper
+    Charge
+
+Pack 2 pick 12:
+--> Demonic Vigor
+    Unwind
+    Radiating Lightning
+
+Pack 2 pick 13:
+    Frenzied Rage
+--> Skirk Prospector
+
+Pack 2 pick 14:
+--> Unwind
+
+------ DAR ------
+
+Pack 3 pick 1:
+    Skirk Prospector
+    Stronghold Confessor
+    Opt
+    Broken Bond
+    Mesa Unicorn
+    Cabal Evangel
+    Grow from the Ashes
+    Divest
+    Excavation Elephant
+    Thallid Omnivore
+--> Tiana, Ship's Caretaker
+    Memorial to Glory
+    Orcish Vandal
+    The Mending of Dominaria
+
+Pack 3 pick 2:
+    Tolarian Scholar
+    Arbor Armament
+    Knight of New Benalia
+    Homarid Explorer
+--> Blessed Light
+    Windgrace Acolyte
+    Ghitu Chronicler
+    Cloudreader Sphinx
+    Ghitu Lavarunner
+    Mesa Unicorn
+    Adeliz, the Cinder Wind
+    Goblin Warchief
+    Tempest Djinn
+
+Pack 3 pick 3:
+--> Blessed Light
+    Mesa Unicorn
+    Unwind
+    Dark Bargain
+    Voltaic Servant
+    Baloth Gorger
+    Deep Freeze
+    Shivan Fire
+    Sparring Construct
+    Demonic Vigor
+    Memorial to Glory
+    Orcish Vandal
+
+Pack 3 pick 4:
+    Seismic Shift
+    Sparring Construct
+--> Aven Sentry
+    Keldon Warcaller
+    Academy Drake
+    Feral Abomination
+    Keldon Raider
+    Deep Freeze
+    Rescue
+    Sentinel of the Pearl Trident
+    Zhalfirin Void
+
+Pack 3 pick 5:
+    Charge
+    Adventurous Impulse
+    Fire Elemental
+    Run Amok
+    Voltaic Servant
+    Mammoth Spider
+    Divination
+--> D'Avenant Trapper
+    Amaranthine Wall
+    Curator's Ward
+
+Pack 3 pick 6:
+    Llanowar Envoy
+    Arcane Flight
+    Sparring Construct
+    Warlord's Fury
+    Befuddle
+    Deep Freeze
+    Cabal Paladin
+    Adamant Will
+--> Board the Weatherlight
+
+Pack 3 pick 7:
+    Frenzied Rage
+    Corrosive Ooze
+    Relic Runner
+--> Serra Disciple
+    Drudge Sentinel
+    Aesthir Glider
+    Tragic Poet
+    Hallar, the Firefletcher
+
+Pack 3 pick 8:
+    Warlord's Fury
+    Rescue
+    Guardians of Koilos
+    Skirk Prospector
+--> Benalish Honor Guard
+    Blessing of Belzenlok
+    Memorial to Unity
+
+Pack 3 pick 9:
+    Skirk Prospector
+    Broken Bond
+    Cabal Evangel
+    Divest
+--> Excavation Elephant
+    Orcish Vandal
+
+Pack 3 pick 10:
+    Tolarian Scholar
+--> Arbor Armament
+    Homarid Explorer
+    Ghitu Lavarunner
+    Goblin Warchief
+
+Pack 3 pick 11:
+    Unwind
+--> Sparring Construct
+    Demonic Vigor
+    Orcish Vandal
+
+Pack 3 pick 12:
+--> Seismic Shift
+    Rescue
+    Sentinel of the Pearl Trident
+
+Pack 3 pick 13:
+--> Fire Elemental
+    Curator's Ward
+
+Pack 3 pick 14:
+--> Befuddle

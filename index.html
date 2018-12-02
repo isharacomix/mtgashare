@@ -1,0 +1,97 @@
+<html>
+<head>
+  <title>Test</title>
+  <script src="js/jquery.js"></script>
+  <script src="js/base64.js"></script>
+  <script src="js/pako.js"></script>
+  <script src="js/scryfall-oracle-cards.json"></script>
+  <script src="js/local.js"></script>
+</head>
+
+<body>
+<div id='share' style="display: none;">
+  <div>To share a deck or draft, copy and paste it and click the button to get your sharing link. Your sharing link will be extremely long, but most social media sites should use their built-in link shortening to reduce it to a finite number of characters.</div>
+  <textarea id="forminput" rows="14" cols="50"></textarea>
+  <button onclick="genLink();">Share</button>
+  <div id='target'>
+  </div>
+</div>
+
+<div id='deckdata' style="display: none;">
+</div>
+
+<div id='draftdata' style="display: none;">
+</div>
+
+
+</body>
+<script>
+var localdata = window.location.href.substring(window.location.href.indexOf("#")+1);
+var localmedia = deserialize(localdata)
+console.log(localmedia)
+if (!("draft" in localmedia || "deck" in localmedia))
+{
+  $('#share').show();
+}
+if ("draft" in localmedia)
+{
+  $('#draftdata').show();
+  let data = ""
+  let packno = 0
+  let pickno = 0
+  let last = 0
+  for (let pick of localmedia.draft)
+  {
+    let entry = ""
+    if (pick.pack.length > last)
+    {
+      packno += 1
+      pickno = 0
+    }
+    pickno += 1
+    last = pick.pack.length
+    entry += "<div>Pack "+packno+", Pick "+pickno+"<ul>"
+    for (let card of pick.pack)
+    {
+      if (card == pick.pick)
+      {
+        entry += "<li><strong><em>"+card+"</em></strong></li>"
+      }
+      else {
+        entry += "<li>"+card+"</li>"
+      }
+    }
+    entry += "</ul></div>"
+    data += entry
+  }
+  $('#draftdata').html(data);
+
+}
+if ('deck' in localmedia)
+{
+  $('#deckdata').show();
+}
+
+
+function genLink(){
+  $("#target").html("")
+  let data = $("#forminput").val()
+  let media = {}
+  if (data.includes("\nPlayers:"))
+  {
+    media = parseDraft(data)
+  }
+  else
+  {
+    media = parseDeck(data)
+  }
+  let dest = serialize(media)
+  if (dest != "")
+  {
+    $("#target").html("<a href='#"+dest+"' target='_blank'>Click</a>")
+  }
+}
+</script>
+
+
+</html>
