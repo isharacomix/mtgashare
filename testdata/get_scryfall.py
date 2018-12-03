@@ -7,7 +7,7 @@ clean_data = []
 
 for card in raw_data:
     new_card = {}
-    for field in ['name', 'color_identity', 'image_uris', 'type_line', 'card_faces']:
+    for field in ['name', 'color_identity', 'image_uris', 'type_line', 'card_faces', 'scryfall_uri']:
         if field in card:
             new_card[field] = card[field]
     if "image_uris" in new_card:

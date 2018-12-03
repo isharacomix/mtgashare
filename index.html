@@ -55,33 +55,9 @@ if ("draft" in localmedia)
 {
   $('#draftcontainer').show();
   let data = ""
-  let packno = 0
-  let pickno = 0
-  let last = 0
-  for (let pick of localmedia.draft)
-  {
-    let entry = ""
-    if (pick.pack.length > last)
-    {
-      packno += 1
-      pickno = 0
-    }
-    pickno += 1
-    last = pick.pack.length
-    entry += "<div>Pack "+packno+", Pick "+pickno+"<ul>"
-    for (let card of pick.pack)
-    {
-      if (card == pick.pick)
-      {
-        entry += "<li><strong><em>"+card+"</em></strong></li>"
-      }
-      else {
-        entry += "<li>"+card+"</li>"
-      }
-    }
-    entry += "</ul></div>"
-    data += entry
-  }
+  data += visualDraftHTML(localmedia.draft)
+  data += textualDraftHTML(localmedia.draft)
+
   $('#draftdata').html(data);
 
 }

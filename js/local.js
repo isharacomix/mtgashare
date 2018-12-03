@@ -255,7 +255,7 @@ function deckHTML(cards)
 }
 
 
-function mtgColumns(cards)
+function mtgColumns(cards, marginpx)
 {
   let output = "<div class=' mb-5 mt-5'>"
   let colheight = Math.floor(cards.length / 5)
@@ -277,6 +277,7 @@ function mtgColumns(cards)
   {
     colheights[0] += 1
   }
+
   for (let i = 0; i < colheights[0]; i++)
   {
     for (let j = 0; j < 5; j++)
@@ -288,24 +289,29 @@ function mtgColumns(cards)
       if (j > 0) { index += colheights[0]  }
 
       let uri = "img/fakecard.png"
-      if (index < cards.length)
+      let link = null
+      if (i < colheights[j])
       {
         let cardobj = getCardByName(cards[index])
         if ("image_uris" in cardobj)
         {
           uri = cardobj.image_uris.normal
+          link = cardobj.scryfall_uri
         }
         else if ("card_faces" in cardobj && "image_uris" in cardobj.card_faces[0])
         {
           uri = cardobj.card_faces[0].image_uris.normal
+          link = cardobj.scryfall_uri
         }
       }
-        let margin = "margin-bottom: -240px;"
+        let margin = "margin-bottom: -"+marginpx+"px;"
         if (i == colheights[0]-1)
         {
           margin = ""
         }
+        if (link) {output += "<a href='"+link+"'>"}
         output += "<img src='"+uri+"' style='width: 20%; "+margin+"'>"
+        if (link) {output += "</a>"}
 
     }
   }
@@ -349,8 +355,131 @@ function visualHTML(cards)
   }
 
   let output = ""
-  output += mtgColumns(mainboard)
-  output += mtgColumns(sideboard)
+  output += mtgColumns(mainboard, 240)
+  output += mtgColumns(sideboard, 240)
   return output
 
+}
+
+
+function textualDraftHTML(draft)
+{
+  let output = ""
+  let packno = 0
+  let pickno = 0
+  let last = 0
+  for (let pick of localmedia.draft)
+  {
+    let entry = ""
+    if (pick.pack.length > last)
+    {
+      packno += 1
+      pickno = 0
+    }
+    pickno += 1
+    last = pick.pack.length
+    entry += "<div class='card mb-5 mt-5 d-xl-none'>"
+    entry += "<div class='card-header'>Pack "+packno+", Pick "+pickno+"</div>"
+    entry += "<div class='card-body>'"
+    entry += "<div class='container'>"
+
+    entry += "<div class='row'>"
+    entry += "<div class='col-5 offset-1'>"
+    entry += "<div class='mb-5 mt-5'>"
+    entry += "<em><strong>"+pick.pick+"</strong></em>"
+    entry += "</div>"
+    entry += "</div>"
+
+    entry += "<div class='col-5'>"
+    entry += "<div class='mb-5 mt-5'>"
+
+    let index = pick.pack.indexOf(pick.pick);
+    if (index > -1) {
+      pick.pack.splice(index, 1);
+    }
+    for (let c in pick.pack)
+    {
+      entry += "<div>" + pick.pack[c]
+      entry += "</div>"
+    }
+    entry += "</div>"
+    entry += "</div>"
+
+
+    entry += "</div>"
+
+    entry += "</div>"
+    entry += "</div>"
+    entry += "</div>"
+
+    output += entry
+  }
+  return output
+}
+
+function visualDraftHTML(draft)
+{
+  let output = ""
+
+  let packno = 0
+  let pickno = 0
+  let last = 0
+  for (let pick of localmedia.draft)
+  {
+    let entry = ""
+    if (pick.pack.length > last)
+    {
+      packno += 1
+      pickno = 0
+    }
+    pickno += 1
+    last = pick.pack.length
+    entry += "<div class='card mb-5 mt-5 d-none d-xl-block'>"
+    entry += "<div class='card-header'>Pack "+packno+", Pick "+pickno+"</div>"
+    entry += "<div class='card-body>'"
+    entry += "<div class='container'>"
+
+    entry += "<div class='row'>"
+    entry += "<div class='col-2 offset-1'>"
+    entry += "<div class='mb-5 mt-5'>"
+
+      let uri = "img/fakecard.png"
+      let link = null
+        let cardobj = getCardByName(pick.pick)
+        if ("image_uris" in cardobj)
+        {
+          uri = cardobj.image_uris.normal
+          link = cardobj.scryfall_uri
+        }
+        else if ("card_faces" in cardobj && "image_uris" in cardobj.card_faces[0])
+        {
+          uri = cardobj.card_faces[0].image_uris.normal
+          link = cardobj.scryfall_uri
+        }
+        if (link) {entry += "<a href='"+link+"'>"}
+        entry += "<img src='"+uri+"' style='width: 100%;'>"
+        if (link) {entry += "</a>"}
+    entry += "</div>"
+    entry += "</div>"
+
+    entry += "<div class='col-8'>"
+    let index = pick.pack.indexOf(pick.pick);
+    if (index > -1) {
+      pick.pack.splice(index, 1);
+    }
+      entry += mtgColumns(pick.pack, 180)
+    entry += "</div>"
+
+
+    entry += "</div>"
+
+    entry += "</div>"
+    entry += "</div>"
+    entry += "</div>"
+
+    output += entry
+  }
+
+
+  return output
 }
