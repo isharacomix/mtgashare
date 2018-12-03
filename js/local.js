@@ -72,6 +72,7 @@ function parseDeck(cardlist){
   let main = {};
   let side = {};
   let which = main;
+	let empty = true;
 
   for (let line of lines){
     let trimmed = line.trim()
@@ -83,6 +84,7 @@ function parseDeck(cardlist){
       let card = getCardByName(cardname)
       if (card)
       {
+				empty = false
         if (!(card.name in which))
         {
           which[card.name] = 0
@@ -95,6 +97,10 @@ function parseDeck(cardlist){
       which = side;
     }
   }
+	if (empty)
+	{
+		return null
+	}
   return {"deck": {"main": main, "side": side}}
 }
 function parseDraft(cardlist){
@@ -242,7 +248,8 @@ function deckHTML(cards)
           else {
             count = cards.main[card]
           }
-          output += "<div>"+count+" "+card+"</div>"
+					let link = getCardByName(card).scryfall_uri
+          output += "<div><a href='"+link+"' target='_blank'  style='text-decoration: none;'  class='text-secondary'>"+count+" "+card+"</a></div>"
         }
         output += "</div>"
 
@@ -386,7 +393,8 @@ function textualDraftHTML(draft)
     entry += "<div class='row'>"
     entry += "<div class='col-5 offset-1'>"
     entry += "<div class='mb-5 mt-5'>"
-    entry += "<em><strong>"+pick.pick+"</strong></em>"
+		let link = getCardByName(pick.pick).scryfall_uri
+    entry += "<em><strong><a href='"+link+"' target='_blank' style='text-decoration: none;' class='text-secondary'>"+pick.pick+"</a></strong></em>"
     entry += "</div>"
     entry += "</div>"
 
@@ -399,8 +407,9 @@ function textualDraftHTML(draft)
     }
     for (let c in pick.pack)
     {
-      entry += "<div>" + pick.pack[c]
-      entry += "</div>"
+			link = getCardByName(pick.pack[c]).scryfall_uri
+      entry += "<div><a href='"+link+"' target='_blank' style='text-decoration: none; ' class='text-secondary'>" + pick.pack[c]
+      entry += "</a></div>"
     }
     entry += "</div>"
     entry += "</div>"

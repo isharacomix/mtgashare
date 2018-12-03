@@ -15,15 +15,22 @@
 
 <body>
 <div class="container">
+  <div class="row" id='navbar'><div class="col-12 mb-1 mt-1">
+    <a href="https://github.com/isharacomix/mtgashare" target="_blank" class="btn btn-info btn-sm">Project Page</a>
+    <a href="https://github.com/isharacomix/mtgashare/issues/new" target="_blank" class="btn btn-danger btn-sm">Report Issue</a>
+    <a href="#" target="_blank" id="sharebutton" class="btn btn-success btn-sm">Share New Deck/Draft</a>
+  </div></div>
+
   <div class="row" id='share' style="display: none;">
     <div class="col-12">
       <div>To share a deck or draft, copy and paste it and click the button to get your sharing link. Your sharing link will be extremely long, but most social media sites should use their built-in link shortening to reduce it to a finite number of characters.</div>
-      <textarea id="forminput" rows="14" cols="50"></textarea>
-      <button onclick="genLink();">Share</button>
-      <div id='target'>
+      <div class="input-group mb-1 mt-1">
+      <textarea class="form-control" id="forminput" rows="14" cols="50"></textarea>
       </div>
-    </div>
-  </div>
+      <button class="btn btn-primary" onclick="genLink();">Share</button>
+      <span id='target'></span>
+      </div>
+      </div>
 
 
 
@@ -49,6 +56,7 @@ var localdata = window.location.href.substring(window.location.href.indexOf("#")
 var localmedia = deserialize(localdata)
 if (!("draft" in localmedia || "deck" in localmedia))
 {
+  $('#sharebutton').hide();
   $('#share').show();
 }
 if ("draft" in localmedia)
@@ -74,7 +82,7 @@ if ('deck' in localmedia)
   data += "</div>"
   data += "</div>"
 
-  data += "<div class='card  mb-5 mt-5 d-none d-lg-block' >"
+  data += "<div class='card  mb-5 mt-5 d-none d-xl-block' >"
   data += "<div class='card-header'>"
   data += "Visual Spoiler"
   data += "</div>"
@@ -99,10 +107,14 @@ function genLink(){
   {
     media = parseDeck(data)
   }
-  let dest = serialize(media)
+  let dest = ""
+  if (media != null)
+  {
+     dest = serialize(media)
+  }
   if (dest != "")
   {
-    $("#target").html("<a href='#"+dest+"' target='_blank'>Click</a>")
+    $("#target").html("<a class='btn btn-link' href='#"+dest+"' target='_blank'>Shareable Link</a>")
   }
 }
 </script>
