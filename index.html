@@ -71,18 +71,7 @@ if ('deck' in localmedia)
 {
   $('#deckdata').show();
   let data = ""
-  data += "<div>Mainboard</div><ul>"
-  for (let card in localmedia.deck.main)
-  {
-    data += "<li>"+localmedia.deck.main[card]+" "+card+"</li>"
-  }
-  data += "</ul>"
-  data += "<div>Sideboard</div><ul>"
-  for (let card in localmedia.deck.side)
-  {
-    data += "<li>"+localmedia.deck.side[card]+" "+card+"</li>"
-  }
-  data += "</ul>"
+  data += deckHTML(localmedia.deck)
   $('#deckdata').html(data);
 
 }

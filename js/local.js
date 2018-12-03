@@ -139,3 +139,109 @@ function parseDraft(cardlist){
   picks.push({'pick': pick, 'pack': pack})
   return {'draft': picks}
 }
+
+function sortCardsByType(cardlist, sideboard)
+{
+    families = {}
+    families['Artifact'] = []
+    families['Creature'] = []
+    families['Instant'] = []
+    families['Sorcery'] = []
+    families['Enchantment'] = []
+    families['Planeswalker'] = []
+    families['Land'] = []
+    families['Other'] = []
+    families['Sideboard'] = []
+
+    for (let cardname of Object.keys(cardlist))
+    {
+      card = getCardByName(cardname)
+      if (card.type_line.includes("Creature"))
+      {
+        families.Creature.push(cardname)
+      }
+      else if (card.type_line.includes("Land"))
+      {
+        families.Land.push(cardname)
+      }
+      else if (card.type_line.includes("Artifact"))
+      {
+        families.Artifact.push(cardname)
+      }
+      else if (card.type_line.includes("Enchantment"))
+      {
+        families.Enchantment.push(cardname)
+      }
+      else if (card.type_line.includes("Instant"))
+      {
+        families.Instant.push(cardname)
+      }
+      else if (card.type_line.includes("Sorcery"))
+      {
+        families.Sorcery.push(cardname)
+      }
+      else if (card.type_line.includes("Planeswalker"))
+      {
+        families.Planeswalker.push(cardname)
+      }
+      else
+      {
+        families.Other.push(cardname)
+      }
+    }
+    for (let cardname of Object.keys(sideboard))
+    {
+      families.Sideboard.push(cardname)
+    }
+    for (let family of Object.keys(families))
+    {
+      families[family].sort(cardsort('color'))
+    }
+    return families
+}
+
+function cardsort(desc) {
+  return function(a,b){
+   ac = getCardByName(a).color_identity.join() + " "+ a
+   bc = getCardByName(b).color_identity.join() + " "+ b
+   return desc ? ~~(ac > bc) : ~~(ac < bc);
+  }
+}
+
+
+function deckHTML(cards)
+{
+  let deckdata = sortCardsByType(cards.main, cards.side)
+
+
+  let output = ""
+  output += "<div>"
+  for (let family of ["Creature", "Instant", "Sorcery", "Artifact", "Enchantment", "Planeswalker", "Land", "Other", "Sideboard"])
+  {
+    if (family in deckdata && deckdata[family].length > 0)
+    {
+        output += "<div>"
+        output += "<div><h3>"+family+"</h3></div>"
+
+        output += "<div><ul>"
+        for (let card of deckdata[family])
+        {
+          let count = 0
+          if (family == "Sideboard")
+          {
+            count = cards.side[card]
+          }
+          else {
+            count = cards.main[card]
+          }
+          output += "<li>"+count+" "+card+"</li>"
+        }
+        output += "</ul></div>"
+
+
+        output += "</div>"
+    }
+  }
+  output += "</div>"
+  return output
+}
