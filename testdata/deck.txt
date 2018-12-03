@@ -24,4 +24,5 @@
 1 Izzet Guildgate (GRN) 252
 
 
-1 Healer's Hawk (GRN) 14
+13 Healer's Hawk (GRN) 14
+1 Search for Azcanta

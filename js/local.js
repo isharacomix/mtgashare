@@ -58,8 +58,9 @@ function serialize(dict) {
 
 
 function getCardByName(cardname){
+  cardname = cardname.toLowerCase()
     for (let card of cards){
-      if (card.name == cardname)
+      if (card.name.toLowerCase() == cardname || (card.name.split('/')[0].trim().toLowerCase() == cardname)  )
       {
         return card;
       }
@@ -82,11 +83,11 @@ function parseDeck(cardlist){
       let card = getCardByName(cardname)
       if (card)
       {
-        if (!(cardname in which))
+        if (!(card.name in which))
         {
-          which[cardname] = 0
+          which[card.name] = 0
         }
-        which[cardname] += Number(count)
+        which[card.name] += Number(count)
       }
     }
     else
@@ -129,9 +130,9 @@ function parseDraft(cardlist){
        }
        if (card)
        {
-         pack.push(cardname)
+         pack.push(card.name)
          if (line.startsWith('-->')) {
-           pick = cardname
+           pick = card.name
          }
        }
     }
@@ -156,9 +157,17 @@ function sortCardsByType(cardlist, sideboard)
     for (let cardname of Object.keys(cardlist))
     {
       card = getCardByName(cardname)
-      if (card.type_line.includes("Creature"))
+      if (card.type_line.includes("Planeswalker"))
+      {
+        families.Planeswalker.push(cardname)
+      }
+      else if (card.type_line.includes("Creature"))
       {
         families.Creature.push(cardname)
+      }
+      else if (card.type_line.includes("Enchantment"))
+      {
+        families.Enchantment.push(cardname)
       }
       else if (card.type_line.includes("Land"))
       {
@@ -168,10 +177,6 @@ function sortCardsByType(cardlist, sideboard)
       {
         families.Artifact.push(cardname)
       }
-      else if (card.type_line.includes("Enchantment"))
-      {
-        families.Enchantment.push(cardname)
-      }
       else if (card.type_line.includes("Instant"))
       {
         families.Instant.push(cardname)
@@ -179,10 +184,6 @@ function sortCardsByType(cardlist, sideboard)
       else if (card.type_line.includes("Sorcery"))
       {
         families.Sorcery.push(cardname)
-      }
-      else if (card.type_line.includes("Planeswalker"))
-      {
-        families.Planeswalker.push(cardname)
       }
       else
       {
@@ -202,8 +203,15 @@ function sortCardsByType(cardlist, sideboard)
 
 function cardsort(desc) {
   return function(a,b){
-   ac = getCardByName(a).color_identity.join() + " "+ a
-   bc = getCardByName(b).color_identity.join() + " "+ b
+   let card1 = getCardByName(a)
+   let card2 = getCardByName(b)
+
+   let ac = card1.color_identity.join() + " "+ card1.name
+   let bc = card2.color_identity.join() + " "+ card2.name
+
+   if (card1.type_line.includes("Basic")) {ac = "zzz"+ac}
+   if (card2.type_line.includes("Basic")) {bc = "zzz"+bc}
+
    return desc ? ~~(ac > bc) : ~~(ac < bc);
   }
 }
@@ -269,7 +277,6 @@ function mtgColumns(cards)
   {
     colheights[0] += 1
   }
-  console.log(colheights)
   for (let i = 0; i < colheights[0]; i++)
   {
     for (let j = 0; j < 5; j++)
@@ -279,12 +286,19 @@ function mtgColumns(cards)
       if (j > 2) { index += colheights[2]  }
       if (j > 1) { index += colheights[1]  }
       if (j > 0) { index += colheights[0]  }
-      console.log([i, j, index])
 
       let uri = "img/fakecard.png"
       if (index < cards.length)
       {
-        uri = getCardByName(cards[index]).image_uris.normal
+        let cardobj = getCardByName(cards[index])
+        if ("image_uris" in cardobj)
+        {
+          uri = cardobj.image_uris.normal
+        }
+        else if ("card_faces" in cardobj && "image_uris" in cardobj.card_faces[0])
+        {
+          uri = cardobj.card_faces[0].image_uris.normal
+        }
       }
         let margin = "margin-bottom: -240px;"
         if (i == colheights[0]-1)

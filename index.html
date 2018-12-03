@@ -47,7 +47,6 @@
 <script>
 var localdata = window.location.href.substring(window.location.href.indexOf("#")+1);
 var localmedia = deserialize(localdata)
-console.log(localmedia)
 if (!("draft" in localmedia || "deck" in localmedia))
 {
   $('#share').show();
