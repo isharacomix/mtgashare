@@ -215,15 +215,15 @@ function deckHTML(cards)
 
 
   let output = ""
-  output += "<div>"
+  output += "<div class='card-columns'>"
   for (let family of ["Creature", "Instant", "Sorcery", "Artifact", "Enchantment", "Planeswalker", "Land", "Other", "Sideboard"])
   {
     if (family in deckdata && deckdata[family].length > 0)
     {
-        output += "<div>"
+        output += "<div class='card'  style='border: none;'><div class='card-body'>"
         output += "<div><h3>"+family+"</h3></div>"
 
-        output += "<div><ul>"
+        output += "<div>"
         for (let card of deckdata[family])
         {
           let count = 0
@@ -234,14 +234,109 @@ function deckHTML(cards)
           else {
             count = cards.main[card]
           }
-          output += "<li>"+count+" "+card+"</li>"
+          output += "<div>"+count+" "+card+"</div>"
         }
-        output += "</ul></div>"
-
-
         output += "</div>"
+
+
+        output += "</div></div>"
     }
   }
   output += "</div>"
   return output
+}
+
+
+function mtgColumns(cards)
+{
+  let output = "<div class=' mb-5 mt-5'>"
+  let colheight = Math.floor(cards.length / 5)
+  let coloffset = cards.length % 5
+  let colheights = [colheight, colheight, colheight, colheight, colheight]
+  if (coloffset > 3)
+  {
+    colheights[3] += 1
+  }
+  if (coloffset > 2)
+  {
+    colheights[2] += 1
+  }
+  if (coloffset > 1)
+  {
+    colheights[1] += 1
+  }
+  if (coloffset > 0)
+  {
+    colheights[0] += 1
+  }
+  console.log(colheights)
+  for (let i = 0; i < colheights[0]; i++)
+  {
+    for (let j = 0; j < 5; j++)
+    {
+      let index = i
+      if (j > 3) { index += colheights[3]  }
+      if (j > 2) { index += colheights[2]  }
+      if (j > 1) { index += colheights[1]  }
+      if (j > 0) { index += colheights[0]  }
+      console.log([i, j, index])
+
+      let uri = "img/fakecard.png"
+      if (index < cards.length)
+      {
+        uri = getCardByName(cards[index]).image_uris.normal
+      }
+        let margin = "margin-bottom: -240px;"
+        if (i == colheights[0]-1)
+        {
+          margin = ""
+        }
+        output += "<img src='"+uri+"' style='width: 20%; "+margin+"'>"
+
+    }
+  }
+  output += "</div>"
+
+
+  return output
+}
+
+function visualHTML(cards)
+{
+  let deckdata = sortCardsByType(cards.main, cards.side)
+
+  let mainboard = []
+  let sideboard = []
+  for (let family of ["Creature", "Instant", "Sorcery", "Artifact", "Enchantment", "Planeswalker", "Land", "Other"])
+  {
+
+
+    for (let card of deckdata[family])
+    {
+      let count = cards.main[card]
+      while (count > 0)
+      {
+        count -= 1
+        mainboard.push(card)
+      }
+    }
+  }
+  for (let family of ["Sideboard"])
+  {
+    for (let card of deckdata[family])
+    {
+      let count = cards.side[card]
+      while (count > 0)
+      {
+        count -= 1
+        sideboard.push(card)
+      }
+    }
+  }
+
+  let output = ""
+  output += mtgColumns(mainboard)
+  output += mtgColumns(sideboard)
+  return output
+
 }

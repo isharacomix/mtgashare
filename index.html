@@ -1,26 +1,45 @@
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>Test</title>
+  <title>Magic Share</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <script src="js/jquery.js"></script>
   <script src="js/base64.js"></script>
   <script src="js/pako.js"></script>
+  <script src="js/bootstrap.js"></script>
   <script src="js/scryfall-oracle-cards.json"></script>
   <script src="js/local.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 
 <body>
-<div id='share' style="display: none;">
-  <div>To share a deck or draft, copy and paste it and click the button to get your sharing link. Your sharing link will be extremely long, but most social media sites should use their built-in link shortening to reduce it to a finite number of characters.</div>
-  <textarea id="forminput" rows="14" cols="50"></textarea>
-  <button onclick="genLink();">Share</button>
-  <div id='target'>
+<div class="container">
+  <div class="row" id='share' style="display: none;">
+    <div class="col-12">
+      <div>To share a deck or draft, copy and paste it and click the button to get your sharing link. Your sharing link will be extremely long, but most social media sites should use their built-in link shortening to reduce it to a finite number of characters.</div>
+      <textarea id="forminput" rows="14" cols="50"></textarea>
+      <button onclick="genLink();">Share</button>
+      <div id='target'>
+      </div>
+    </div>
   </div>
-</div>
 
-<div id='deckdata' style="display: none;">
-</div>
 
-<div id='draftdata' style="display: none;">
+
+
+  <div class="row"  id='deckcontainer' style="display: none;">
+    <div id='deckdata' class="col-12">
+    </div>
+  </div>
+
+  <div class="row"  id='draftcontainer' style="display: none;">
+    <div id='draftdata' class="col-12">
+    </div>
+  </div>
+
+
+
 </div>
 
 
@@ -35,7 +54,7 @@ if (!("draft" in localmedia || "deck" in localmedia))
 }
 if ("draft" in localmedia)
 {
-  $('#draftdata').show();
+  $('#draftcontainer').show();
   let data = ""
   let packno = 0
   let pickno = 0
@@ -69,9 +88,25 @@ if ("draft" in localmedia)
 }
 if ('deck' in localmedia)
 {
-  $('#deckdata').show();
+  $('#deckcontainer').show();
   let data = ""
+  data += "<div class='card mb-5 mt-5'>"
+  data += "<div class='card-header'>"
+  data += "Deck"
+  data += "</div>"
+  data += "<div class='card-body'>"
   data += deckHTML(localmedia.deck)
+  data += "</div>"
+  data += "</div>"
+
+  data += "<div class='card  mb-5 mt-5 d-none d-lg-block' >"
+  data += "<div class='card-header'>"
+  data += "Visual Spoiler"
+  data += "</div>"
+  data += "<div class='card-body'>"
+  data += visualHTML(localmedia.deck)
+  data += "</div>"
+  data += "</div>"
   $('#deckdata').html(data);
 
 }
