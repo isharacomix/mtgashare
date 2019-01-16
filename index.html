@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Magic Share</title>
+  <title>MTGA Share</title>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <script src="js/jquery.js"></script>
   <script src="js/base64.js"></script>
   <script src="js/pako.js"></script>
+  <script src="js/html2canvas.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/cards.js"></script>
   <script src="js/local.js"></script>
@@ -23,15 +24,15 @@
 
   <div class="row" id='share' style="display: none;">
     <div class="col-12">
-      <div>To share a deck or draft, copy and paste it and click the button to get your sharing link. Your sharing link will be extremely long, but most social media sites should use their built-in link shortening to reduce it to a finite number of characters.</div>
+      <div>To share a deck or draft, copy and paste it and click the button to get your sharing link. Your sharing link will be extremely long, but most social media sites (such as Mastodon and Twitter) should use their built-in link shortening to a fixed number of characters. If you are sharing on a site without a built-in link sharer (such as Discord), you can create and share a TinyURL instead.</div>
       <div class="input-group mb-1 mt-1">
       <textarea class="form-control" id="forminput" rows="14" cols="50"></textarea>
       </div>
       <button class="btn btn-primary" onclick="genLink();">Share</button>
       <span id='target'></span>
+      <span id='target2'></span>
       </div>
       </div>
-
 
 
 
@@ -82,7 +83,7 @@ if ('deck' in localmedia)
   data += "</div>"
   data += "</div>"
 
-  data += "<div class='card  mb-5 mt-5 d-none d-xl-block' >"
+  data += "<div id='vizspoiler' class='card  mb-5 mt-5 d-none d-xl-block' >"
   data += "<div class='card-header'>"
   data += "Visual Spoiler"
   data += "</div>"
@@ -97,6 +98,7 @@ if ('deck' in localmedia)
 
 function genLink(){
   $("#target").html("")
+  $("#target2").html("")
   let data = $("#forminput").val()
   let media = {}
   if (data.includes("\nPlayers:"))
@@ -115,6 +117,7 @@ function genLink(){
   if (dest != "")
   {
     $("#target").html("<a class='btn btn-link' href='#"+dest+"' target='_blank'>Shareable Link</a>")
+    $("#target2").html("<a class='btn btn-link' href='https://tinyurl.com/create.php?url="+encodeURIComponent(document.location+"#"+dest)+"' target='_blank'>Create TinyURL</a>")
   }
 }
 </script>
