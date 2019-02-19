@@ -116,7 +116,7 @@ function genLink(){
   if (dest != "")
   {
     $("#target").html("<a class='btn btn-link' href='#"+dest+"' target='_blank'>Shareable Link</a>")
-    $("#target2").html("<a class='btn btn-link' href='https://tinyurl.com/create.php?url="+encodeURIComponent(document.location+"#"+dest)+"' target='_blank'>Create TinyURL</a>")
+    $("#target2").html("<a class='btn btn-link' href='https://tinyurl.com/create.php?url="+encodeURIComponent(document.location.origin+document.location.pathname+"#"+dest)+"' target='_blank'>Create TinyURL</a>")
   }
 }
 </script>
