@@ -82,7 +82,7 @@ function parseDeck(cardlist){
       let count = components.splice(0, 1)
       let cardname = (components.join(" ")).split('(')[0].trim()
       let card = getCardByName(cardname)
-      if (card)
+      if (card && count > 0)
       {
 				empty = false
         if (!(card.name in which))
