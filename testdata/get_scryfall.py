@@ -2,7 +2,8 @@
 import requests
 import json
 
-raw_data = requests.get("https://archive.scryfall.com/json/scryfall-oracle-cards.json").json()
+filename = requests.get("https://api.scryfall.com/bulk-data").json()["data"][0]["download_uri"]
+raw_data = requests.get(filename).json()
 clean_data = []
 
 for card in raw_data:
