@@ -76,9 +76,10 @@ def update():
         
         rsstext += "<p>%s</p>"%card['type_line']
         if "oracle_text" in card:
-            rsstext += "<p>%s</p>"%card['oracle_text']
+            for l in card['oracle_text'].splitlines():
+                rsstext += "<p>%s</p>"%l
         if source_uri:
-            rsstext += "<p>%s</p>"%source_uri
+            rsstext += '<p><a href="%s">%s</a></p>'%(source_uri,source_uri)
         rsstext += '<p><img src="%s" /></p>'%card['image_uris']['normal']
         
         rsstext += "]]></description>"
