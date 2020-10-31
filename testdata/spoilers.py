@@ -50,8 +50,8 @@ def update():
             newcardlist.append({'id': card})
 
     # Allow the RSS feed to contain the 50 newest cards
-    breakoff = queue[:50]
-    queue = queue[50:]
+    breakoff = queue[:10]
+    queue = queue[10:]
     breakoff.reverse()
     feedcontents = (breakoff+feedcontents)[:50]
 
