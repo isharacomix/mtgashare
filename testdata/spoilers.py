@@ -55,6 +55,17 @@ def update():
     breakoff.reverse()
     feedcontents = (breakoff+feedcontents)[:50]
 
+    open('cardlist.json', 'w').write(json.dumps(newcardlist))
+    open('queue.json', 'w').write(json.dumps(queue))
+    open('feed.json', 'w').write(json.dumps(feedcontents))
+
+def post():
+    feedcontents = []
+    try:
+        feedcontents = json.loads(open('feed.json').read())
+    except:
+        pass
+        
     # Generate a new RSS feed out of feedcontents
     rsstext = ""
     rsstext += """<?xml version="1.0" encoding="utf-8"?>
@@ -92,9 +103,7 @@ def update():
 
     # Save our files.
     open('../spoilers.rss', "w").write(rsstext)
-    open('cardlist.json', 'w').write(json.dumps(newcardlist))
-    open('queue.json', 'w').write(json.dumps(queue))
-    open('feed.json', 'w').write(json.dumps(feedcontents))
+
 
 
 
@@ -102,3 +111,4 @@ def update():
 
 if __name__ == '__main__':
     update()
+    post()
