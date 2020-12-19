@@ -91,7 +91,11 @@ def post():
                 rsstext += "<p>%s</p>"%l
         if source_uri:
             rsstext += '<p><a href="%s">%s</a></p>'%(source_uri,source_uri)
-        rsstext += '<p><img src="%s" /></p>'%card['image_uris']['normal']
+        if "card_faces" in card:
+            for face in card['card_faces']:
+                rsstext += '<p><img src="%s" /></p>'%face['image_uris']['normal']
+        else:
+            rsstext += '<p><img src="%s" /></p>'%card['image_uris']['normal']
         
         rsstext += "]]></description>"
         rsstext += "</item>"
