@@ -13,8 +13,7 @@ import requests
 def lore():
     result = ""
     result += """<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="https://magic.wizards.com/sites/all/themes/wiz_mtg/xml/rss.xsl"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://mtgesports.com"><channel><title>MTG Esports</title><link>https://mtgesports.com</link><description/><language>en</language>"""
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://pathfinderwiki.com"><channel><title>Pathfinder Wiki/title><link>https://pathfinderwiki.com</link><description/><language>en</language>"""
 
     data = requests.get("https://pathfinderwiki.com/wiki/Special:Random/Main")
     
