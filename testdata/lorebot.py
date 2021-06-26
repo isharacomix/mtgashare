@@ -18,8 +18,9 @@ def lore():
     data = requests.get("https://pathfinderwiki.com/wiki/Special:Random/Main")
     
     name = data.url.split('/')[-1].replace('_', ' ')
-    summary = data.text.split('role="article"')[1].split('<p>')[1].split('</p>')[0]
-    summary = summary.replace('[', '(').replace(']',')')
+    summary = ""
+    #summary = data.text.split('role="article"')[1].split('<p>')[1].split('</p>')[0]
+    #summary = summary.replace('[', '(').replace(']',')')
 
 
     result += "<item>"
