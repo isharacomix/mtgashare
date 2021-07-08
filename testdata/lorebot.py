@@ -6,7 +6,7 @@
 import os, sys
 import json, wget
 import requests
-
+import time
 
 
 
@@ -15,7 +15,15 @@ def lore():
     result += """<?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://pathfinderwiki.com"><channel><title>Pathfinder Wiki</title><link>https://pathfinderwiki.com</link><description/><language>en</language>"""
 
-    data = requests.get("https://pathfinderwiki.com/wiki/Special:Random/Main")
+    data = None
+    while data is None:
+        data = requests.get("https://pathfinderwiki.com/wiki/Special:Random/Main")
+        if data and "/wiki/Category:Authors" in data.text:
+            data = None
+        if data and "/wiki/Category:Artists" in data.text:
+            data = None
+        time.sleep(5)
+        
     
     name = data.url.split('/')[-1].replace('_', ' ')
     summary = ""
