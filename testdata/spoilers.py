@@ -114,7 +114,7 @@ def esports():
     result = ""
     result += """<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="https://magic.wizards.com/sites/all/themes/wiz_mtg/xml/rss.xsl"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://mtgesports.com"><channel><title>MTG Esports</title><link>https://mtgesports.com</link><description/><language>en</language>"""
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://magic.gg"><channel><title>MTG Esports</title><link>https://magic.gg</link><description/><language>en</language>"""
     indata = {
         "operationName": None,
         "query": """fragment articleFields on Article {  sys {    id    __typename  }  author  articleTitle  articleFeaturedImage {    url    __typename  }  slug  publishedDate  categories  outboundLink  __typename}query ($preview: Boolean, $search: String = "", $skip: Int = 0, $chunkSize: Int = 5, $category: String = "", $filterByCategory: Boolean = false) {  articlesInCategory: articleCollection(preview: $preview, skip: $skip, limit: $chunkSize, order: publishedDate_DESC, where: {skipNewsPage_not: true, eventsArticle_not: true, categories_contains_some: [$category], OR: [{articleTitle_contains: $search}, {articleBody_contains: $search}, {author_contains: $search}]}) @include(if: $filterByCategory) {    total    items {      ...articleFields      __typename    }    __typename  }  allArticles: articleCollection(preview: $preview, skip: $skip, limit: $chunkSize, order: publishedDate_DESC, where: {skipNewsPage_not: true, eventsArticle_not: true, OR: [{articleTitle_contains: $search}, {articleBody_contains: $search}, {author_contains: $search}]}) @skip(if: $filterByCategory) {    total    items {      ...articleFields      __typename    }    __typename  }  articlesInAll: articleCollection(preview: $preview, where: {skipNewsPage_not: true, eventsArticle_not: true, OR: [{articleTitle_contains: $search}, {articleBody_contains: $search}, {author_contains: $search}]}) {    total    __typename  }  articlesInEvents: articleCollection(preview: $preview, where: {skipNewsPage_not: true, eventsArticle_not: true, categories_contains_some: ["Events"], OR: [{articleTitle_contains: $search}, {articleBody_contains: $search}, {author_contains: $search}]}) {    total    __typename  }  articlesInUpdates: articleCollection(preview: $preview, where: {skipNewsPage_not: true, eventsArticle_not: true, categories_contains_some: ["Updates"], OR: [{articleTitle_contains: $search}, {articleBody_contains: $search}, {author_contains: $search}]}) {    total    __typename  }  articlesInPlayers: articleCollection(preview: $preview, where: {skipNewsPage_not: true, eventsArticle_not: true, categories_contains_some: ["Players"], OR: [{articleTitle_contains: $search}, {articleBody_contains: $search}, {author_contains: $search}]}) {    total    __typename  }}""",
@@ -134,7 +134,7 @@ def esports():
         title = subitem["articleTitle"]
         link = subitem["outboundLink"]
         if link is None:
-            link = "https://www.mtgesports.com/news/"+subitem["slug"]
+            link = "https://magic.gg/news/"+subitem["slug"]
         
         result += "<item>"
         result += "<title>"+title+"</title>"
