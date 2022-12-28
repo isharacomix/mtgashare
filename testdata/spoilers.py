@@ -114,7 +114,7 @@ def esports():
     result = ""
     result += """<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="https://magic.wizards.com/sites/all/themes/wiz_mtg/xml/rss.xsl"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://magic.gg"><channel><title>MTG Esports</title><link>https://magic.gg</link><description/><language>en</language>"""
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://magic.gg"><channel><title>MTG News</title><link>https://magic.gg</link><description/><language>en</language>"""
     indata = {
         "operationName": None,
         "query": """fragment articleFields on Article {  sys {    id    __typename  }  author  articleTitle  articleFeaturedImage {    url    __typename  }  slug  publishedDate  categories  outboundLink  __typename}query ($preview: Boolean, $search: String = "", $skip: Int = 0, $chunkSize: Int = 5, $category: String = "", $filterByCategory: Boolean = false) {  articlesInCategory: articleCollection(preview: $preview, skip: $skip, limit: $chunkSize, order: publishedDate_DESC, where: {skipNewsPage_not: true, eventsArticle_not: true, categories_contains_some: [$category], OR: [{articleTitle_contains: $search}, {articleBody_contains: $search}, {author_contains: $search}]}) @include(if: $filterByCategory) {    total    items {      ...articleFields      __typename    }    __typename  }  allArticles: articleCollection(preview: $preview, skip: $skip, limit: $chunkSize, order: publishedDate_DESC, where: {skipNewsPage_not: true, eventsArticle_not: true, OR: [{articleTitle_contains: $search}, {articleBody_contains: $search}, {author_contains: $search}]}) @skip(if: $filterByCategory) {    total    items {      ...articleFields      __typename    }    __typename  }  articlesInAll: articleCollection(preview: $preview, where: {skipNewsPage_not: true, eventsArticle_not: true, OR: [{articleTitle_contains: $search}, {articleBody_contains: $search}, {author_contains: $search}]}) {    total    __typename  }  articlesInEvents: articleCollection(preview: $preview, where: {skipNewsPage_not: true, eventsArticle_not: true, categories_contains_some: ["Events"], OR: [{articleTitle_contains: $search}, {articleBody_contains: $search}, {author_contains: $search}]}) {    total    __typename  }  articlesInUpdates: articleCollection(preview: $preview, where: {skipNewsPage_not: true, eventsArticle_not: true, categories_contains_some: ["Updates"], OR: [{articleTitle_contains: $search}, {articleBody_contains: $search}, {author_contains: $search}]}) {    total    __typename  }  articlesInPlayers: articleCollection(preview: $preview, where: {skipNewsPage_not: true, eventsArticle_not: true, categories_contains_some: ["Players"], OR: [{articleTitle_contains: $search}, {articleBody_contains: $search}, {author_contains: $search}]}) {    total    __typename  }}""",
@@ -127,12 +127,17 @@ def esports():
             "skip": 0
         }
     }
-    data = requests.post("https://www.magic.gg/api/contentful/apollo", json=indata).json()
+    
+    # esports
+    esports_token = "55006dd7d868409c694628081e43f6ce5d1cee174943d8fcb03ca66507390427"
+    esports_url = "https://cdn.contentful.com/spaces/ryplwhabvmmk/environments/master/entries?content_type=article&access_token="+esports_token
+    data = requests.get(esports_url).json()
 
-    featureditems = data["data"]["allArticles"]["items"]
-    for subitem in featureditems:
+    featureditems = data["items"]
+    for item in featureditems:
+        subitem = item['fields']
         title = subitem["articleTitle"]
-        link = subitem["outboundLink"]
+        link = subitem.get("outboundLink", None)
         if link is None:
             link = "https://magic.gg/news/"+subitem["slug"]
         
@@ -141,11 +146,36 @@ def esports():
         result += "<link>"+link+"</link>"
         result += "<guid>"+link+"</guid>"
         result += "<description>"
-        if "articleFeaturedImage" in subitem:
-            result += '<![CDATA[<img src="%s">]]>'%subitem["articleFeaturedImage"]["url"]
+        if "articleBody" in subitem:
+            result += '<![CDATA[%s>]]>'%subitem["articleBody"]
+        #elif "articleFeaturedImage" in subitem:
+        #    result += '<![CDATA[<img src="%s">]]>'%subitem["articleFeaturedImage"]["url"]
         result += "</description>"
         result += "</item>"
 
+    # daily
+    daily_token = "CPET-V_EFhnj_qi1lfps9BH3Se6V1B_bxE1J1VYi7qo"
+    daily_url = "https://cdn.contentful.com/spaces/s5n2t79q9icq/environments/master/entries?content_type=article&locale=en&include=1&access_token="+daily_token
+    data = requests.get(daily_url).json()
+
+    featureditems = data["items"]
+    for item in featureditems:
+        subitem = item['fields']
+        title = subitem["title"]
+        link = "https://magic.wizards.com/en/news/"+subitem.get("category", "")+"/"+subitem.get("slug", "")
+        
+        result += "<item>"
+        result += "<title>"+title+"</title>"
+        result += "<link>"+link+"</link>"
+        result += "<guid>"+link+"</guid>"
+        result += "<description>"
+        if "article" in subitem:
+            result += '<![CDATA[%s>]]>'%subitem["article"].get("body", "")
+        #elif "articleFeaturedImage" in subitem:
+        #    result += '<![CDATA[<img src="%s">]]>'%subitem["articleFeaturedImage"]["url"]
+        result += "</description>"
+        result += "</item>"
+    
     result += """</channel></rss>"""
     open('../esports.rss', "w").write(result)
 
