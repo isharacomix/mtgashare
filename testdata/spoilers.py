@@ -147,7 +147,7 @@ def esports():
         result += "<guid>"+link+"</guid>"
         result += "<description>"
         if "articleBody" in subitem:
-            result += '<![CDATA[%s>]]>'%subitem["articleBody"]
+            result += '<![CDATA[%s]]>'%subitem["articleBody"]
         #elif "articleFeaturedImage" in subitem:
         #    result += '<![CDATA[<img src="%s">]]>'%subitem["articleFeaturedImage"]["url"]
         result += "</description>"
@@ -170,7 +170,7 @@ def esports():
         result += "<guid>"+link+"</guid>"
         result += "<description>"
         if "article" in subitem:
-            result += '<![CDATA[%s>]]>'%subitem["article"].get("body", "")
+            result += '<![CDATA[%s]]>'%subitem["article"].get("body", "")
         #elif "articleFeaturedImage" in subitem:
         #    result += '<![CDATA[<img src="%s">]]>'%subitem["articleFeaturedImage"]["url"]
         result += "</description>"
