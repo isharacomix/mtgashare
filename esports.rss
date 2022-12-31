@@ -1,6 +1,292 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="https://magic.wizards.com/sites/all/themes/wiz_mtg/xml/rss.xsl"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://magic.gg"><channel><title>MTG News</title><link>https://magic.gg</link><description/><language>en</language><item><title>The Week That Was: Getting Fires Up for the Pro Tour</title><link>https://magic.gg/news/the-week-that-was-getting-fires-up-for-the-pro-tour</link><guid>https://magic.gg/news/the-week-that-was-getting-fires-up-for-the-pro-tour</guid><description><![CDATA[<p>The Regional Championship are the gift that keeps on giving. It's fitting that as we are celebrating holidays right now that players have seen fit to leave some surprises underneath the tree.</p>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://magic.gg"><channel><title>MTG News</title><link>https://magic.gg</link><description/><language>en</language><item><title>January 2023 Ranked Season Details</title><link>https://magic.gg/news/ranked-play-season</link><guid>https://magic.gg/news/ranked-play-season</guid><description><![CDATA[<p>The January 2023 Ranked Season on <i>MTG Arena</i> starts December 31, 2022, at 12:05 p.m. PT (19:05 UTC), and ends January 31, 2022, at 12:00 p.m. PT (20:00 UTC).</p>
+
+<p>Top 250 Mythic-ranked players in Constructed or Limited at the end of this season will be eligible to compete in the <a href="https://magic.gg/events/qualifier-weekend" target="_blank">February 2023 Qualifier Weekend</a>.</p>
+
+<div class="table-wrapper">
+<table>
+	<thead>
+		<tr>
+			<th>Ranked Events</th>
+			<th>Format</th>
+			<th>Start</th>
+			<th>End</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Standard Ranked</td>
+			<td>Bo1 Standard Constructed</td>
+			<td>∞</td>
+			<td>∞</td>
+		</tr>
+		<tr>
+			<td>Traditional Standard Ranked</td>
+			<td>Bo3 Standard Constructed</td>
+			<td>∞</td>
+			<td>∞</td>
+		</tr>
+		<tr>
+			<td>Historic Ranked</td>
+			<td>Bo1 Historic Constructed</td>
+			<td>∞</td>
+			<td>∞</td>
+		</tr>
+		<tr>
+			<td>Traditional Historic Ranked</td>
+			<td>Bo3 Historic Constructed</td>
+			<td>∞</td>
+			<td>∞</td>
+		</tr>
+		<tr>
+			<td>Alchemy Ranked</td>
+			<td>Bo1 Alchemy Constructed</td>
+			<td>∞</td>
+			<td>∞</td>
+		</tr>
+		<tr>
+			<td>Traditional Alchemy Ranked</td>
+			<td>Bo3 Alchemy Constructed</td>
+			<td>∞</td>
+			<td>∞</td>
+		</tr>
+		<tr>
+			<td>Explorer Ranked</td>
+			<td>Bo1 Explorer Constructed</td>
+			<td>∞</td>
+			<td>∞</td>
+		</tr>
+		<tr>
+			<td>Traditional Explorer Ranked</td>
+			<td>Bo3 Explorer Constructed</td>
+			<td>∞</td>
+			<td>∞</td>
+		</tr>
+		<tr>
+			<td>Premier Draft: <i>The Brothers' War</i></td>
+			<td>Player Draft</td>
+			<td>11/15/2022</td>
+			<td>01/31/2023</td>
+		</tr>
+		<tr>
+			<td>Premier Draft: <i>Kaldheim</i></td>
+			<td>Player Draft</td>
+			<td>01/16/2023</td>
+			<td>01/31/2023</td>
+		</tr>
+		<tr>
+			<td>Quick Draft: <i>The Brothers’ War</i></td>
+			<td>Bot Draft</td>
+			<td>12/23/2022</td>
+			<td>01/06/2023</td>
+		</tr>
+		<tr>
+			<td>Quick Draft: <i>Dominaria United</i></td>
+			<td>Bot Draft</td>
+			<td>01/06/2023</td>
+			<td>01/20/2023</td>
+		</tr>
+		<tr>
+			<td>Quick Draft: <i>The Brothers' War</i></td>
+			<td>Bot Draft</td>
+			<td>01/20/2023</td>
+			<td>02/03/2023</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<br />
+
+<p>Looking for Standard and Historic decklists to get started? <a href="https://magic.gg/decklists" target="_blank">Visit the decklists hub</a> to see winning decklists!</p>
+
+<h1>January 2023 Season Rewards</h1>
+
+<p>Players will receive their rewards for the January 2023 season at the start of the February 2023 Ranked Season (12:05 p.m. PT on January 31).</p>
+
+<p><b>You must have played at least one ranked game in the respective format to receive seasonal rewards.</b></p>
+
+<p>The January 2023 Ranked Season on <i>MTG Arena</i> starts December 31, 2022, at 12:05 p.m. PT (19:05 UTC), and ends January 31, 2022, at 12:00 p.m. PT (20:00 UTC).</p>
+
+<ul>
+	<li><b>Bronze Reward</b>: 1 <i>The Brothers' War</i> pack</li>
+	<li><b>Silver Reward</b>: 1 <i>The Brothers' War</i> pack + 500 gold</li>
+	<li><b>Gold Reward</b>: 2 <i>The Brothers' War</i> packs + 1,000 gold + Recruitment Officer card style</li>
+	<li><b>Platinum Reward</b>: 3 <i>The Brothers' War</i> packs + 1,000 Gold + Recruitment Officer card style + Brotherhood's End card style</li>
+	<li><b>Diamond Reward</b>: 4 <i>The Brothers' War</i> packs + 1,000 Gold + Recruitment Officer card style + Brotherhood's End card style</li>
+	<li><b>Mythic Reward</b>: 5 <i>The Brothers' War</i> packs + 1,000 Gold + Recruitment Officer card style + Brotherhood's End card style</li>
+</ul>
+
+<p>As a reminder, card styles are a cosmetic option only and do not add any cards to a player's collection. There is no benefit to acquiring a card style more than once; if you achieve Gold Rank or higher in both Limited and Constructed, you will only receive one copy of the card style.</p>
+
+<h1>Qualifier Weekend Invitation</h1>
+
+<p>Players who finish in the top 250 of Mythic-ranked competitors will qualify to participate in the <a href="https://magic.gg/mtg-arena?section=qualifier-weekend#mtg-arena" target="_blank">Qualifier Weekend</a> shown below. Matches that finish prior to 12:00 p.m. PT (UTC-08:00) on January 31, 2023, will count toward final season ranking for January, which determines invitations to the February Qualifier Weekend.</p>
+
+<h1>Qualifier Play-Ins</h1>
+
+<p>Players can earn the Qualifier Token for entry to a Qualifier Weekend by reaching maximum wins in a single course of a Play-In event that feeds that Qualifier Weekend.</p>
+
+<p>There are typically two Qualifier Play-Ins each month:</p>
+
+<ul>
+	<li>A Best-of-One event is held on Saturday, seven days before Qualifier Weekend.</li>
+	<li>A Best-of-Three event is held on Friday, the day before Qualifier Weekend.</li>
+</ul>
+
+<p>Learn more on the <a href="https://magic.gg/events/qualifier-play-in" target="_blank">Qualifier Play-In Information page</a>.</p>
+
+<p>Information on what the Qualifier Weekend feeds, its format, and other details are available on the <a href="https://magic.gg/events/qualifier-weekend" target="_blank">Qualifier Weekend Information page</a>.</p>
+
+<div class="embedImageWrapper" style="text-align: center;"><div class="embedImagePositioner"><img class="embedImage" src="//images.ctfassets.net/ryplwhabvmmk/2akf9WCSQUX2hgWKaADbhf/455e751fe363c6e89e8b041dcba45c7e/challenger_profile.jpg" /></div></div><br />
+
+<div class="table-wrapper">
+<table>
+	<tbody>
+		<tr>
+			<th rowspan="2">2023 Qualifier Weekend Dates</th>
+			<th rowspan="2">Format</th>
+			<th colspan="2">Ranked Season Invites</th>
+			<th rowspan="2">Play-In Dates</th>
+		</tr>
+		<tr>
+			<th>Month</th>
+			<th>Top X</th>
+		</tr>
+		<tr>
+			<td>January 14–15</td>
+			<td>Traditional Alchemy</td>
+			<td>December</td>
+			<td rowspan="2">250<br />
+			(251-1200 get 1 free Play-In entry)</td>
+			<td>Jan 7 (Bo1)<br />
+			Jan 13 (Bo3)</td>
+		</tr>
+		<tr>
+			<td>February 25–26</td>
+			<td><i>Phyrexia: All Will Be One</i> Phantom Sealed</td>
+			<td>January</td>
+			<td>Feb 18 (Bo1)<br />
+			Feb 24 (Bo3)</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+<br />
+
+<h1>Entry Window</h1>
+
+<p>Each Qualifier Weekend event day has a specific two-hour entry window—late entries cannot be accommodated.</p>
+
+<p>The entry window is between <b>6 a.m. and 8 a.m. Pacific time</b>. Times for events occurring November 6, 2022, through March 12, 2023, in other time zones are:</p>
+
+<ul>
+	<li>9:00-11:00 a.m. ET</li>
+	<li>14:00-16:00 UTC</li>
+	<li>15:00-17:00 CEST</li>
+	<li>23:00-01:00 the next day JST</li>
+</ul>
+
+<h1>Seasonal Reset</h1>
+
+<p>Constructed and Limited ranks will be reset. Your new rank will be based on your end-of-season rank from the previous season:</p>
+
+<div class="table-wrapper">
+<table>
+	<thead>
+		<tr>
+			<th>Previous Rank</th>
+			<th>New Rank</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Bronze Tier 4</td>
+			<td>Bronze Tier 4</td>
+		</tr>
+		<tr>
+			<td>Bronze Tier 3</td>
+			<td>Bronze Tier 4</td>
+		</tr>
+		<tr>
+			<td>Bronze Tier 2</td>
+			<td>Bronze Tier 4</td>
+		</tr>
+		<tr>
+			<td>Bronze Tier 1</td>
+			<td>Bronze Tier 3</td>
+		</tr>
+		<tr>
+			<td>Silver Tier 4</td>
+			<td>Bronze Tier 3</td>
+		</tr>
+		<tr>
+			<td>Silver Tier 3</td>
+			<td>Bronze Tier 3</td>
+		</tr>
+		<tr>
+			<td>Silver Tier 2</td>
+			<td>Bronze Tier 2</td>
+		</tr>
+		<tr>
+			<td>Silver Tier 1</td>
+			<td>Bronze Tier 2</td>
+		</tr>
+		<tr>
+			<td>Gold Tier 4</td>
+			<td>Bronze Tier 1</td>
+		</tr>
+		<tr>
+			<td>Gold Tier 3</td>
+			<td>Silver Tier 4</td>
+		</tr>
+		<tr>
+			<td>Gold Tier 2</td>
+			<td>Silver Tier 3</td>
+		</tr>
+		<tr>
+			<td>Gold Tier 1</td>
+			<td>Silver Tier 2</td>
+		</tr>
+		<tr>
+			<td>Platinum Tier 4</td>
+			<td>Silver Tier 1</td>
+		</tr>
+		<tr>
+			<td>Platinum Tier 3</td>
+			<td>Gold Tier 4</td>
+		</tr>
+		<tr>
+			<td>Platinum Tier 2</td>
+			<td>Gold Tier 4</td>
+		</tr>
+		<tr>
+			<td>Platinum Tier 1</td>
+			<td>Gold Tier 3</td>
+		</tr>
+		<tr>
+			<td>Diamond Tier 4</td>
+			<td>Gold Tier 3</td>
+		</tr>
+		<tr>
+			<td>Diamond Tier 3</td>
+			<td>Gold Tier 2</td>
+		</tr>
+		<tr>
+			<td>Diamond Tier 2</td>
+			<td>Gold Tier 2</td>
+		</tr>
+		<tr>
+			<td>Diamond Tier 1</td>
+			<td>Gold Tier 1</td>
+		</tr>
+		<tr>
+			<td>Mythic</td>
+			<td>Platinum 4</td>
+		</tr>
+	</tbody>
+</table>
+</div>]]></description></item><item><title>The Week That Was: Getting Fires Up for the Pro Tour</title><link>https://magic.gg/news/the-week-that-was-getting-fires-up-for-the-pro-tour</link><guid>https://magic.gg/news/the-week-that-was-getting-fires-up-for-the-pro-tour</guid><description><![CDATA[<p>The Regional Championship are the gift that keeps on giving. It's fitting that as we are celebrating holidays right now that players have seen fit to leave some surprises underneath the tree.</p>
 
 <p>If that tree is the Pioneer format, anyway. The metaphor only goes so far—the point is that we've completed another week of Regional Championships played out across Pioneer, and we have yet another innovative deck winning the events in the hands of a worthy champion. Another curveball in a year full of them, all setting the stage perfectly for the first Pro Tour of 2023 at <a href="https://mcphiladelphia.mtgfestivals.com/en-us.html" target="_blank">MagicCon: Philadelphia</a>.</p>
 
@@ -3121,287 +3407,7 @@ Aside from the Regional Championship tournament itself, the event also saw hundr
 <div class="embedImageWrapper" style="text-align: right or left or center;"><div class="embedImagePositioner"><img class="embedImage" src="//images.ctfassets.net/ryplwhabvmmk/3TpgVvTVb4CQhYcrh0rUcC/a9858d2574add80afe2a7a0cc8d40b56/jpkr-cards.jpg" /><p class="embedImageCaption">Some of Magic’s oldest and most powerful cards being put through their paces</p></div></div><br />
 
 <div class="embedImageWrapper" style="text-align: right or left or center;"><div class="embedImagePositioner"><img class="embedImage" src="//images.ctfassets.net/ryplwhabvmmk/1Jb8dLA7dT78BoNpVOoKU2/258080f2fd0319f75f6eeb990d4b45e9/jpkr-convention.jpg" /><p class="embedImageCaption">Jumpstart proves a popular pick for players in Tokoname</p></div></div><br />
-]]></description></item><item><title>December 2022 Ranked Season Details</title><link>https://magic.gg/news/ranked-play-season</link><guid>https://magic.gg/news/ranked-play-season</guid><description><![CDATA[<p>The December 2022 Ranked Season on <i>MTG Arena</i> starts November 30, 2022, at 12:05 p.m. PT (19:05 UTC), and ends December 31, 2022, at 12:00 p.m. PT (20:00 UTC).</p>
-
-<p>Top 250 Mythic-ranked players in Constructed or Limited at the end of this season will be eligible to compete in the <a href="https://magic.gg/events/qualifier-weekend" target="_blank">December Qualifier Weekend</a>.</p>
-
-<div class="table-wrapper">
-<table>
-	<thead>
-		<tr>
-			<th>Ranked Events</th>
-			<th>Format</th>
-			<th>Start</th>
-			<th>End</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Standard Ranked</td>
-			<td>Bo1 Standard Constructed</td>
-			<td>∞</td>
-			<td>∞</td>
-		</tr>
-		<tr>
-			<td>Traditional Standard Ranked</td>
-			<td>Bo3 Standard Constructed</td>
-			<td>∞</td>
-			<td>∞</td>
-		</tr>
-		<tr>
-			<td>Historic Ranked</td>
-			<td>Bo1 Historic Constructed</td>
-			<td>∞</td>
-			<td>∞</td>
-		</tr>
-		<tr>
-			<td>Traditional Historic Ranked</td>
-			<td>Bo3 Historic Constructed</td>
-			<td>∞</td>
-			<td>∞</td>
-		</tr>
-		<tr>
-			<td>Alchemy Ranked</td>
-			<td>Bo1 Alchemy Constructed</td>
-			<td>∞</td>
-			<td>∞</td>
-		</tr>
-		<tr>
-			<td>Traditional Alchemy Ranked</td>
-			<td>Bo3 Alchemy Constructed</td>
-			<td>∞</td>
-			<td>∞</td>
-		</tr>
-		<tr>
-			<td>Explorer Ranked</td>
-			<td>Bo1 Explorer Constructed</td>
-			<td>∞</td>
-			<td>∞</td>
-		</tr>
-		<tr>
-			<td>Traditional Explorer Ranked</td>
-			<td>Bo3 Explorer Constructed</td>
-			<td>∞</td>
-			<td>∞</td>
-		</tr>
-		<tr>
-			<td>Premier Draft: <i>The Brothers' War</i></td>
-			<td>Player Draft</td>
-			<td>11/15/2022</td>
-			<td>01/31/2023</td>
-		</tr>
-		<tr>
-			<td>Premier Draft: <i>The Brothers' War</i> Alchemy</td>
-			<td>Player Draft</td>
-			<td>12/13/2022</td>
-			<td>12/20/2022</td>
-		</tr>
-		<tr>
-			<td>Quick Draft: Planeshifted <i>Streets of New Capenna</i></td>
-			<td>Bot Draft</td>
-			<td>12/09/2022</td>
-			<td>12/23/2022</td>
-		</tr>
-		<tr>
-			<td>Quick Draft: <i>The Brothers' War</i></td>
-			<td>Bot Draft</td>
-			<td>12/23/2022</td>
-			<td>01/06/2023</td>
-		</tr>
-	</tbody>
-</table>
-</div>
-<br />
-
-<p>Looking for Standard and Historic decklists to get started? <a href="https://magic.gg/decklists" target="_blank">Visit the decklists hub</a> to see winning decklists!</p>
-
-<h1>December 2022 Season Rewards</h1>
-
-<p>Players will receive their rewards for the December 2022 season at the start of the January 2023 Ranked Season (12:05 p.m. PT on December 31).</p>
-
-<p><b>You must have played at least one ranked game in the respective format to receive seasonal rewards.</b></p>
-
-<p>The December 2022 Ranked Season on <i>MTG Arena</i> starts November 30, 2022, at 12:05 p.m. PT (19:05 UTC), and ends December 31, 2022, at 12:00 p.m. PT (20:00 UTC).</p>
-
-<ul>
-	<li><b>Bronze Reward</b>: 1 <i>The Brothers' War</i> pack</li>
-	<li><b>Silver Reward</b>: 1 <i>The Brothers' War</i> pack + 500 gold</li>
-	<li><b>Gold Reward</b>: 2 <i>The Brothers' War</i> packs + 1000 gold + Monastery Swiftspear card style</li>
-	<li><b>Platinum Reward</b>: 3 <i>The Brothers' War</i> packs + 1000 gold Monastery Swiftspear card style + Simian Simulacrum card style</li>
-	<li><b>Diamond Reward</b>: 4 <i>The Brothers' War</i> packs + 1000 gold Monastery Swiftspear card + style Simian Simulacrum card style</li>
-	<li><b>Mythic Reward</b>: 5 <i>The Brothers' War</i> packs + 1000 gold Monastery Swiftspear card style + Simian Simulacrum card style</li>
-</ul>
-
-<p>As a reminder, card styles are a cosmetic option only and do not add any cards to a player's collection. There is no benefit to acquiring a card style more than once; if you achieve Gold Rank or higher in both Limited and Constructed, you will only receive one copy of the card style.</p>
-
-<h1>Qualifier Weekend Invitation</h1>
-
-<p>Players who finish in the top 250 of Mythic-ranked competitors will qualify to participate in the <a href="https://magic.gg/mtg-arena?section=qualifier-weekend#mtg-arena" target="_blank">Qualifier Weekend</a> shown below. Matches that finish prior to 12:00 p.m. PT on December 31, 2022, will count toward final season ranking for December, which determines invitations to the December Qualifier Weekend.</p>
-
-<h1>Qualifier Play-Ins</h1>
-
-<p>Players can earn the Qualifier Token for entry to a Qualifier Weekend by reaching maximum wins in a single course of a Play-In event that feeds that Qualifier Weekend.</p>
-
-<p>There are typically two Qualifier Play-Ins each month:</p>
-
-<ul>
-	<li>A Best-of-One event is held on Saturday, seven days before Qualifier Weekend.</li>
-	<li>A Best-of-Three event is held on Friday, the day before Qualifier Weekend.</li>
-</ul>
-
-<p>Learn more on the <a href="https://magic.gg/events/qualifier-play-in" target="_blank">Qualifier Play-In Information page</a>.</p>
-
-<p>Information on what the Qualifier Weekend feeds, its format, and other details are available on the <a href="https://magic.gg/events/qualifier-weekend" target="_blank">Qualifier Weekend Information page</a>.</p>
-
-<div class="embedImageWrapper" style="text-align: center;"><div class="embedImagePositioner"><img class="embedImage" src="//images.ctfassets.net/ryplwhabvmmk/2akf9WCSQUX2hgWKaADbhf/455e751fe363c6e89e8b041dcba45c7e/challenger_profile.jpg" /></div></div><br />
-
-<div class="table-wrapper">
-<table>
-	<tbody>
-		<tr>
-			<th rowspan="2">2022 Qualifier Weekend Dates</th>
-			<th rowspan="2">Format</th>
-			<th colspan="2">Ranked Season Invites</th>
-			<th rowspan="2">Play-In Dates</th>
-		</tr>
-		<tr>
-			<th>Month</th>
-			<th>Top X</th>
-		</tr>
-		<tr>
-			<td>December 10–11</td>
-			<td><i>The Brothers' War </i>Phantom Sealed</td>
-			<td>November</td>
-			<td rowspan="2">250<br />
-			(251-1200 get 1 free Play-In entry)</td>
-			<td>Dec 3 (Bo1)<br />
-			Dec 9 (B03)</td>
-		</tr>
-		<tr>
-			<td>January 14–15</td>
-			<td>Traditional Alchemy</td>
-			<td>December</td>
-			<td>Jan 7 (Bo1)<br />
-			Jan 13 (Bo3)</td>
-		</tr>
-	</tbody>
-</table>
-</div>
-<br />
-
-<h1>Entry Window</h1>
-
-<p>Each Qualifier Weekend event day has a specific two-hour entry window—late entries cannot be accommodated.</p>
-
-<p>The entry window is between <b>6 a.m. and 8 a.m. Pacific time</b>. Times for events occurring November 6, 2022, through March 12, 2023, in other time zones are:</p>
-
-<ul>
-	<li>9:00-11:00 a.m. ET</li>
-	<li>14:00-16:00 UTC</li>
-	<li>15:00-17:00 CEST</li>
-	<li>23:00-01:00 the next day JST</li>
-</ul>
-
-<h1>Seasonal Reset</h1>
-
-<p>Constructed and Limited ranks will be reset. Your new rank will be based on your end-of-season rank from the previous season:</p>
-
-<div class="table-wrapper">
-<table>
-	<thead>
-		<tr>
-			<th>Previous Rank</th>
-			<th>New Rank</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>Bronze Tier 4</td>
-			<td>Bronze Tier 4</td>
-		</tr>
-		<tr>
-			<td>Bronze Tier 3</td>
-			<td>Bronze Tier 4</td>
-		</tr>
-		<tr>
-			<td>Bronze Tier 2</td>
-			<td>Bronze Tier 4</td>
-		</tr>
-		<tr>
-			<td>Bronze Tier 1</td>
-			<td>Bronze Tier 3</td>
-		</tr>
-		<tr>
-			<td>Silver Tier 4</td>
-			<td>Bronze Tier 3</td>
-		</tr>
-		<tr>
-			<td>Silver Tier 3</td>
-			<td>Bronze Tier 3</td>
-		</tr>
-		<tr>
-			<td>Silver Tier 2</td>
-			<td>Bronze Tier 2</td>
-		</tr>
-		<tr>
-			<td>Silver Tier 1</td>
-			<td>Bronze Tier 2</td>
-		</tr>
-		<tr>
-			<td>Gold Tier 4</td>
-			<td>Bronze Tier 1</td>
-		</tr>
-		<tr>
-			<td>Gold Tier 3</td>
-			<td>Silver Tier 4</td>
-		</tr>
-		<tr>
-			<td>Gold Tier 2</td>
-			<td>Silver Tier 3</td>
-		</tr>
-		<tr>
-			<td>Gold Tier 1</td>
-			<td>Silver Tier 2</td>
-		</tr>
-		<tr>
-			<td>Platinum Tier 4</td>
-			<td>Silver Tier 1</td>
-		</tr>
-		<tr>
-			<td>Platinum Tier 3</td>
-			<td>Gold Tier 4</td>
-		</tr>
-		<tr>
-			<td>Platinum Tier 2</td>
-			<td>Gold Tier 4</td>
-		</tr>
-		<tr>
-			<td>Platinum Tier 1</td>
-			<td>Gold Tier 3</td>
-		</tr>
-		<tr>
-			<td>Diamond Tier 4</td>
-			<td>Gold Tier 3</td>
-		</tr>
-		<tr>
-			<td>Diamond Tier 3</td>
-			<td>Gold Tier 2</td>
-		</tr>
-		<tr>
-			<td>Diamond Tier 2</td>
-			<td>Gold Tier 2</td>
-		</tr>
-		<tr>
-			<td>Diamond Tier 1</td>
-			<td>Gold Tier 1</td>
-		</tr>
-		<tr>
-			<td>Mythic</td>
-			<td>Platinum 4</td>
-		</tr>
-	</tbody>
-</table>
-</div>]]></description></item><item><title>Anthony Lee Wins ANZ Super Series Finals in Sidney</title><link>https://magic.gg/news/anthony-lee-wins-anz-super-series-finals-in-sidney</link><guid>https://magic.gg/news/anthony-lee-wins-anz-super-series-finals-in-sidney</guid><description><![CDATA[Last weekend, Sydney saw 154 of the best players from around Australia and New Zealand come together to test their skill and compete for 12 Pro Tour invites, as well as a seat at the next World Championship. When the dust settled on the competition at the ANZ Super Series, it was the seasoned Pro Tour veteran Anthony Lee who rose above all other competitors with his Rakdos Midrange deck!
+]]></description></item><item><title>Anthony Lee Wins ANZ Super Series Finals in Sidney</title><link>https://magic.gg/news/anthony-lee-wins-anz-super-series-finals-in-sidney</link><guid>https://magic.gg/news/anthony-lee-wins-anz-super-series-finals-in-sidney</guid><description><![CDATA[Last weekend, Sydney saw 154 of the best players from around Australia and New Zealand come together to test their skill and compete for 12 Pro Tour invites, as well as a seat at the next World Championship. When the dust settled on the competition at the ANZ Super Series, it was the seasoned Pro Tour veteran Anthony Lee who rose above all other competitors with his Rakdos Midrange deck!
 
 <div class="embedImageWrapper" style="text-align: right or left or center;"><div class="embedImagePositioner"><img class="embedImage" src="//images.ctfassets.net/ryplwhabvmmk/7aCV84ScvovU8h55uAe4Be/8e3e0c274b7e81a62dce390ac5b6b10e/Anthony-Lee-Trophy-3.jpg" /><p class="embedImageCaption">Congratulations to Anthony Lee!</p></div></div><br />
 
