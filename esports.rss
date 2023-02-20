@@ -9764,7 +9764,7 @@ Aside from the Regional Championship tournament itself, the event also saw hundr
 
 <p>High-level tabletop <i>Magic</i> is back, and it will be even better in 2023 with the return the Pro Tour. The first round of Regional Championships has shown the joy of returning to in-person tournaments and high-stakes competition. Top finishers paved their paths to the Pro Tour, pushed the Pioneer metagame forward, and will have the chance to test their mettle against the best of the best at Pro Tour Phyrexia: All Will Be One. Congratulations once again to all top finishers from the Regional Championships, and I look forward to following your competitive journeys next year!</p>]]></description></item><item><title>A First Look at March of the Machine</title><link>https://magic.wizards.com/en/news/announcements/a-first-look-at-march-of-the-machine</link><guid>https://magic.wizards.com/en/news/announcements/a-first-look-at-march-of-the-machine</guid><description><![CDATA[<p>The epic conclusion of <em>Magic</em>'s greatest battle is upon us! Elesh Norn and her Phyrexian army have finally invaded the Multiverse, breaching countless planes. Can the remains of the Gatewatch turn the tide as the Phyrexian hordes threaten to assimilate or destroy everything in their path? The fate of all planes is at stake.</p>
 
-<p>It's time to join the rest of the Multiverse in this climactic battle touching every plane you've ever known and loved. Your first look at <a href="https://magic.wizards.com/en/products/march-of-the-machine" target="_blank"><em>March of the Machine</em></a> is here.</p>
+<p>It's time to join the rest of the Multiverse in this climactic battle touching every plane you've ever known and loved. Your first look at <a href="https://magic.wizards.com/products/march-of-the-machine" onclick="ga('send', 'event', {eventCategory:'daily-mtg-home', eventAction:'internal-click', eventLabel:'mom-daily-article-pdp'});" target="_blank"><em>March of the Machine</em></a> is here.</p>
 
 <div class="figure-wrapper">
 <figure><img alt="" src="https://media.wizards.com/2023/images/daily/xpQZfUOp00jw.jpg" />
@@ -9876,9 +9876,9 @@ Aside from the Regional Championship tournament itself, the event also saw hundr
 
 <p><strong><em>March of the Machine</em> Commander Set Code</strong>: MOC</p>
 
-<p><strong>Website</strong>: <a href="https://magic.wizards.com/en/products/march-of-the-machine" target="_blank"><em>March of the Machine</em></a></p>
+<p><strong>Website</strong>: <a href="https://magic.wizards.com/products/march-of-the-machine" onclick="ga('send', 'event', {eventCategory:'daily-mtg-home', eventAction:'internal-click', eventLabel:'mom-daily-article-pdp'});" target="_blank"><em>March of the Machine</em></a></p>
 
-<p><strong>Preorder Now</strong>: Online at <u><a href="https://gtly.to/XkWuLY3ab" target="_blank">Amazon</a></u> and at your <a href="https://locator.wizards.com/" target="_blank">local game store</a></p>
+<p><strong>Preorder Now</strong>: Online at <u><a href="https://gtly.to/XkWuLY3ab" onclick="ga('send', 'event', {eventCategory:'daily-mtg-home', eventAction:'amazon-click', eventLabel:'mom-daily-article-amz'});" target="_blank">Amazon</a></u> and at your <a href="https://locator.wizards.com/" target="_blank">local game store</a></p>
 
 <h3><em>March of the Machine</em> Important Dates</h3>
 
@@ -10137,8 +10137,452 @@ Aside from the Regional Championship tournament itself, the event also saw hundr
 
 <p>In the meantime, hang on to the edge of your seat, because the Phyrexian machine is on the march—and no corner of the Multiverse is safe.</p>
 
-<p><em>March of the Machine</em> will hit stores worldwide April 21, 2023. Preorder today from <a href="https://locator.wizards.com/" target="_blank">your local game store</a>, <a href="https://gtly.to/XkWuLY3ab" target="_blank">online retailers like Amazon</a>, and elsewhere <em>Magic</em> is sold.</p>
-]]></description></item><item><title>Phyrexia: All Will Be One Vision Design Handoff Document, Part 2</title><link>https://magic.wizards.com/en/news/making-magic/phyrexia-all-will-be-one-vision-design-handoff-document-part-2</link><guid>https://magic.wizards.com/en/news/making-magic/phyrexia-all-will-be-one-vision-design-handoff-document-part-2</guid><description><![CDATA[<p><a href="https://magic.wizards.com/en/news/making-magic/phyrexia-all-will-be-one-vision-design-handoff-document-part-1" target="_blank">Last week</a>, I started showing off the handoff document I created when we turned over <em>Phyrexia: All Will Be One</em> from vision design to set design. Most of the text below is the actual document as it was turned in with my notes in boxes for greater explanation and context.</p>
+<p><em>March of the Machine</em> will hit stores worldwide April 21, 2023. Preorder today from <a href="https://locator.wizards.com/" target="_blank">your local game store</a>, <a href="https://gtly.to/XkWuLY3ab" onclick="ga('send', 'event', {eventCategory:'daily-mtg-home', eventAction:'amazon-click', eventLabel:'mom-daily-article-amz'});" target="_blank">online retailers like Amazon</a>, and elsewhere <em>Magic</em> is sold.</p>
+]]></description></item><item><title>Arena Open: Phyrexia: All Will Be One March 4–5</title><link>https://magic.wizards.com/en/news/mtg-arena/arena-open-phyrexia-all-will-be-one-march-4-5</link><guid>https://magic.wizards.com/en/news/mtg-arena/arena-open-phyrexia-all-will-be-one-march-4-5</guid><description><![CDATA[<p>You've seen <a href="https://magic.wizards.com/en/news/card-image-gallery/phyrexia-all-will-be-one" target="_blank">the <em>Phyrexia: All Will Be One</em> cards</a>, you've studied <a href="https://magic.wizards.com/en/news/feature/phyrexia-all-will-be-one-mechanics" target="_blank">the set's mechanics</a>, and you've read up on <a href="https://magic.wizards.com/en/news/mtg-arena/mtg-arena-release-notes-phyrexia-all-will-be-one" target="_blank">how the set works in <em>MTG Arena</em></a>. Now it's time to pair all that knowledge with your <em>Magic </em>skills in the March 4–5 Arena Open: <em>Phyrexia: All Will Be One </em>event, competing for up to $2,000 plus your own invitation to the April Qualifier Weekend event!</p>
+
+<div style="text-align: center;">
+  <img alt="The Eternal Wanderer artwork" src="https://media.wizards.com/2023/images/daily/77jt7ppbmc56.jpg" />
+  </div>
+
+<p>There are a few points we need to cover before getting to the techno-organic meat of this Arena Open:</p>
+<ul>
+<li>You must be 18 years or older to participate.</li>
+<li>Regional eligibility restrictions apply, void where prohibited.</li>
+<li>Receiving monetary rewards requires having or creating Wizards, DCI, and i-Payout accounts. <em>(i-Payout accounts cannot be created in advance.)</em></li>
+<li>Refer to <a href="https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions">the official Terms and Conditions</a> for complete details.</li>
+</ul>
+<h2>Arena Open – Day 1</h2>
+<p>The Arena Open begins on Saturday, March 4, with both Best-of-One and Best-of-Three <em>Phyrexia: All Will Be One </em>Sealed matches using 30-minute match timers for each player.</p>
+<p><strong>Best-of-One matches</strong>: Seven wins earn you an invitation token for the Day 2 competition.</p>
+<p><strong>Best-of-Three matches</strong>: Four wins earn you an invitation token for the Day 2 competition.</p>
+<p>You may enter Day 1 events as many times as you like, but multiple Day 2 invitation tokens you may win only count as a single Day 2 entry.</p>
+<p>Everyone who enters will receive the Elesh Norn, Mother of Machines card style:</p>
+
+<div style="text-align: center;">
+  <img alt="" src="" />
+</div>
+
+<h3>Day 1 Event Details</h3>
+<p><strong>Event open</strong>: March 4 at 6 a.m. PT (14:00 UTC)</p>
+<p><strong>Signup close</strong>: March 5 at 3 a.m. PT (11:00 UTC)</p>
+<p style="display: inline-block; margin-left: 2em;"><em>You'll have three hours to complete your current run, but you won't be able to join after this deadline. Matches in progress will be allowed to finish.</em></p>
+<p><strong>Day 1 end</strong>: March 5 at 6 a.m. PT (14:00 UTC)</p>
+<p style="display: inline-block; margin-left: 2em;"><em>No new matches begin after this time, but matches in progress will be allowed to finish.</em></p>
+<p><strong>Entry fee</strong>: 25,000 gold or 5,000 gems (for both Best-of-One and Best-of-Three)</p>
+<p><strong>Format</strong>: Best-of-One or Best-of-Three <em>Phyrexia: All Will Be One </em>Sealed</p>
+<p><strong>Structure</strong>:</p>
+<ul>
+<li>Best-of-One: 7 wins or 3 losses</li>
+<li>Best-of-Three: 4 wins or 1 loss</li>
+</ul>
+<p><strong>Rewards</strong>:</p>
+
+<div style="width: 100%; text-align: center; margin-top: -25px;">
+
+    <div
+        style="display: inline-block; text-align: left; padding: 15px; margin: auto; min-width: 330px; width: 49%; vertical-align: top;">
+        <div style="text-align: center;">
+            <span style="font-size: larger;"><strong>Day 1, <em>Phyrexia: All Will Be One</em> Sealed<br />Best-of-One<br /></strong></span>
+        </div>
+        <table style="max-width: 750px; margin: 5px auto; text-align: center;">
+            <tr style="background: black; color: white;">
+                <th style="width: 15%;">Wins</th>
+                <th style="width: 25%;">Gems</th>
+                <th>Invitations</th>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>5,000</td>
+                <td>Day 2 invitation token</td>
+            </tr>
+            <tr style="background: lightgray;">
+                <td>6</td>
+                <td>2,500</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>1,000</td>
+                <td>-</td>
+            </tr>
+            <tr style="background: lightgray;">
+                <td>0–4</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+          <tr>
+            <td colspan="3">&nbsp;</td>
+          </tr>
+        </table>
+    </div>
+    <div
+        style="display: inline-block; text-align: left; padding: 15px; margin: auto; min-width: 330px; width: 49%;">
+        <div style="text-align: center;">
+            <span style="font-size: larger;"><strong>Day 1, <em>Phyrexia: All Will Be One</em> Sealed<br />Best-of-Three<br /></strong></span>
+        </div>
+            <table style="max-width: 750px; margin: 5px auto; text-align: center;">
+                <tr style="background: black; color: white;">
+                    <th style="width: 15%;">Wins</th>
+                    <th style="width: 25%;">Gems</th>
+                    <th>Invitations</th>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>6,000</td>
+                    <td>Day 2 invitation token</td>
+                </tr>
+                <tr style="background: lightgray;">
+                    <td>3</td>
+                    <td>5,000</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>3,000</td>
+                    <td>-</td>
+                </tr>
+                <tr style="background: lightgray;">
+                    <td>1</td>
+                    <td>1,500</td>
+                    <td>-</td>
+                </tr>
+                  <tr>
+                    <td>0</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+            </table>
+    </div>
+</div>
+
+    <h2>Arena Open – Day 2</h2>
+<p>Players who qualify during Day 1 events may enter Day 2 competition. You may only enter once on Day 2, even if you qualify multiple times on Day 1.</p>
+<p>There will be two Best-of-Three Player Draft competitions on Day 2 using 30-minute match timers for each player.</p>
+<h3>Draft One</h3>
+<ul>
+<li>Day 2 players entered in Draft One will draft at the beginning of the day. <strong>The entry period for Draft One is from 6 a.m. to 8 a.m. PT (14:00–16:00 UTC)</strong>.</li>
+<li>Players will have until 12 p.m. PT (20:00 UTC) to complete four matches.</li>
+<li>Draft One features four guaranteed matches.</li>
+<li>Achieving a record of 3–1 or 4–0 in Draft One will earn you a Draft Two entry token.</li>
+<li>Players with four wins will carry forward an extra loss pip, making their Draft Two a double-elimination event (players with three wins in Draft One will have a single-elimination Draft Two event).</li>
+</ul>
+<p>Players with an undefeated 4–0 record from Draft One will carry forward an unused loss pip to Draft Two. That means Draft Two for those players will be a double elimination, allowing them to suffer one loss and stay in the running.</p>
+<h4>Draft One Event Details</h4>
+<p><strong>Draft One entry window</strong>: March 5, 6 a.m. to 8 a.m. PT (14:00–16:00 UTC)</p>
+<p style="display: inline-block; margin-left: 2em;"><em>You must join during this two-hour window. You'll have until 12 p.m. PT (20:00 UTC) to earn up to three match wins or one loss.</em></p>
+<p><strong>Draft One end</strong>: Must complete matches by March 5 at 12 p.m. PT (20:00 UTC)</p>
+<p><strong>Entry fee</strong>: Day 2 invitation token (earned on Day 1)</p>
+<p><strong>Format</strong>: <em>Phyrexia: All Will Be One </em>Player Draft (Best-of-Three)</p>
+<p><strong>Structure</strong>: Fixed four matches</p>
+<p><strong>Rewards</strong>:</p>
+
+<div style="text-align: center; margin-top: -25px;">
+  <span style="font-size: larger;"><strong>Draft One, <em>Phyrexia: All Will Be One</em> Player Draft<br />Best-of-Three<br /></strong></span>
+</div>
+<table style="max-width: 750px; margin: 0 auto 20px auto; text-align: center;">
+    <tr style="background: black; color: white;">
+        <th style="width: 15%;">Wins</th>
+        <th style="width: 25%;">Gems</th>
+        <th>Invitations</th>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>-</td>
+        <td>Draft Two invitation token (double elimination)</td>
+    </tr>
+    <tr style="background: lightgray;">
+        <td>3</td>
+        <td>-</td>
+        <td>Draft Two invitation token (single elimination)</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>2,500</td>
+        <td>-</td>
+    </tr>
+    <tr style="background: lightgray;">
+        <td>1</td>
+        <td>1,500</td>
+        <td>-</td>
+    </tr>
+    <tr style="background: lightgray;">
+        <td>0</td>
+        <td>500</td>
+        <td>-</td>
+    </tr>
+</table>
+
+<h3>Draft Two</h3>
+<p>All Draft Two players will draft and matchmake in the same queues.</p>
+<ul>
+<li>Players draft a second time in Draft Two. <strong>The entry period for Draft Two is from 12 p.m. to 2 p.m. PT (20:00–22:00 UTC)</strong>.</li>
+<li>Players will have until 6 p.m. PT to earn up to four match wins or be eliminated after either one match loss&mdash;or two match losses for those players with an undefeated record in Draft One record.</li>
+</ul>
+<h4>Day 2, Draft Two Event Details</h4>
+<p><strong>Draft Two entry window</strong>: March 5, 12 p.m. to 2 p.m. PT (20:00–22:00 UTC)</p>
+<p><em>You must join during this two-hour window. You'll have until 6 p.m. PT (02:00 UTC March 6) to earn up to three match wins or one loss.</em></p>
+<p><strong>Draft Two end</strong>: Must complete matches by March 5 at 6 p.m. PT (02:00 UTC March 6)</p>
+<p><strong>Entry fee</strong>: Day 2 invitation token (earned on Day 1)</p>
+<p><strong>Format</strong>: <em>Phyrexia: All Will Be One </em>Player Draft (Best-of-Three)</p>
+<p><strong>Structure</strong>: Best-of-Three matches until four wins or one loss for players with a 3–1 record in Draft One, or two losses for players with a 4–0 record in Draft One</p>
+<p><strong>Rewards</strong>:</p>
+
+<div style="text-align: center; margin-top: -25px;">
+  <span style="font-size: larger;"><strong>Draft One, <em>Phyrexia: All Will Be One</em> Player Draft<br />Best-of-Three<br /></strong></span>
+</div>
+<table style="max-width: 750px; margin: 0 auto 20px auto; text-align: center;">
+    <tr style="background: black; color: white;">
+        <th style="width: 15%;">Wins</th>
+              <th>Cash Prize</th>
+        <th style="width: 25%;">Gems</th>
+        <th>Invitations</th>
+    </tr>
+    <tr>
+        <td>4</td>
+              <td>$2,000</td>
+        <td>-</td>
+      <td>Qualifier Weekend invitation</td>
+    </tr>
+    <tr style="background: lightgray;">
+        <td>3</td>
+              <td>$1,000</td>
+        <td>-</td>
+            <td>Qualifier Weekend invitation</td>
+    </tr>
+    <tr>
+        <td>2</td>
+              <td>$500</td>
+        <td>-</td>
+            <td>Qualifier Weekend invitation</td>
+    </tr>
+    <tr style="background: lightgray;">
+        <td>1</td>
+            <td>-</td>
+        <td>15,000</td>
+        <td>-</td>
+    </tr>
+    <tr style="background: lightgray;">
+        <td>0</td>
+            <td>-</td>
+        <td>5,000</td>
+        <td>-</td>
+    </tr>
+</table>
+<h2>Arena Open FAQ</h2>
+<p><strong>How many players can earn monetary rewards on Day 2?</strong></p>
+<p>Day 2 players who earn two, three, or four wins in Draft Two are eligible to receive monetary rewards.</p>
+
+<p><strong>Can I qualify for Day 2 multiple times?</strong></p>
+<p>No, qualifying multiple times will not grant you additional invitation tokens for Day 2 participation. Players qualify for Day 2 by earning enough wins in Day 1 Best-of-One or Best-of-Three events.</p>
+
+<p><strong>What should I do if I encounter an issue during the Arena Open?</strong></p>
+<p>Contact <a href="https://mtgarena-support.wizards.com/hc/en-us/requests/new?ticket_form_id=360000419612" target="_blank">Customer Service</a> if you need assistance during the Arena Open. We are unable to provide support for in-game issues over social media (other than telling you to submit a ticket).</p>
+
+<p>Please ensure you select "Qualifier Weekend/Arena Open Issues" as the reason you are contacting our support team.</p>
+
+<p><strong>I earned a monetary reward on Day 2<nbsp> . . .</nbsp> now what?</strong></p>
+<p>If you receive a monetary reward, we will contact you at the email address listed in your Wizards account to ask for your <a href="https://accounts.wizards.com/" target="_blank">DCI account</a> and to provide instructions for activating your eWallet account with our partner i-Payout. If you already have an i-Payout account, we'll notify you of your prize.</p>
+
+<p>Please check your email regularly after the Arena Open to ensure that you respond to our inquiry in a timely manner.</p>
+
+<p>If you win a monetary reward and do not receive a reward email within 72 hours of completion of the Arena Open, please contact <a href="https://mtgarena-support.wizards.com/hc/en-us/requests/new?ticket_form_id=360000419612" target="_blank">Customer Service</a>.</p>
+
+<p><strong>For more information on reward fulfilments, please refer to </strong><a href="https://magic.wizards.com/en/news/mtg-arena/arena-open-terms-and-conditions" target="_blank"><strong>the full Terms and Conditions</strong></a><strong> and our general </strong><a href="https://mtgarena-support.wizards.com/hc/en-us/articles/360043704072" target="_blank"><strong>Event Prize Support FAQ</strong></a><strong>.</strong></p>]]></description></item><item><title>MTG Arena Announcements, February 20, 2023</title><link>https://magic.wizards.com/en/news/mtg-arena/mtg-arena-announcements-february-20-2023</link><guid>https://magic.wizards.com/en/news/mtg-arena/mtg-arena-announcements-february-20-2023</guid><description><![CDATA[<h2 id="weeklymtg"><em>Alchemy: Phyrexia</em> and <em>Shadows over Innistrad Remastered </em>First Looks!</h2>
+<div style="text-align: center;">
+  <img alt="Tune in to Weekly MTG on twitch.tv/magic on February 21 for first looks at Alchemy: Phyrexia and Shadows over Innistrad Remastered" src="https://media.wizards.com/2023/images/daily/weeklymtg_sir_alchemy.jpg" />
+  </div>
+<p>We have a special treat coming to tomorrow, February 21. <a href="https://www.twitch.tv/magic" target="_blank">Tune into Weekly MTG starting at 10 a.m. PT</a> (18:00 UTC) for the first look at <em>Alchemy: Phyrexia </em>and <em>Shadows over Innistrad Remastered</em>! We'll be revealing release dates, plus showing off new cards, new features, and more.</p>
+
+<div style="float: right; max-width: 370px; margin: -5px 15px;">
+  <a href="https://www.magic.gg/events/qualifier-play-in" target="_blank"><img alt="Let's get toxic! Best-of-Three Qualifier Play-In on February 24, 2023" src="https://media.wizards.com/2023/images/daily/wjt5anwek8z5.jpg" /></a>
+</div>
+<h2 id="qualifierplayin">Best-of-Three Qualifier Play-In and Qualifier Weekend</h2>
+<p>Get ready for February's weekend one-two punch that can propel you to the top tier of <em>MTG Arena </em>competitive play in a few short days of intense <em>Magic</em>!</p>
+<p>First up is the <a href="https://www.magic.gg/events/qualifier-play-in" target="_blank">Best-of-Three Qualifier Play-In event</a> this Friday, February 24, opening at 6 a.m. PT (14:00 UTC). This is where you show your skills at Best-of-Three Sealed Deck with <em>Phyrexia: All Will Be One</em>, secure four match wins, and claim your invitation to the Qualifier Weekend event that starts immediately after.</p>
+<p>Next up is the <a href="https://magic.gg/events/qualifier-weekend" target="_blank">Qualifier Weekend two-day event</a> that opens its Day One event on Saturday, February 25, at 6 a.m. PT (14:00 UTC). You'll have 2 hours to register (you'll need that Qualifier Weekend invitation token you earned, too) so be sure to do so before 8 a.m. PT (16:00 UTC).</p>
+<p>Perform well, and you'll get invited to Day Two on Sunday, February 26, where seven match wins scores you the coveted invitation to the Arena Championship <em>and </em>the Pro Tour! Both Qualifier Weekend days feature matches of Best-of-Three <em>Phyrexia: All Will Be One </em>Sealed Deck.</p>
+
+<h2 id="onearenaopen" style="clear: both;">Arena Open – <em>Phyrexia: All Will Be One</em> March 4–5</h2>
+<div style="text-align: center;">
+  <img alt="The Eternal Wanderer artwork" src="https://media.wizards.com/2023/images/daily/eternal_wanderer.jpg" />
+</div>
+<p><a href="https://magic.wizards.com/en/news/mtg-arena/arena-open-phyrexia-all-will-be-one-march-4-5">The next Arena Open is March 4–5</a>, and there are prizes up to $2,000 and Qualifier Weekend invitations up for grabs. Plus, every entrant receives the Elesh Norn, Mother of Machines card style:</p>
+<div style="text-align: center;">
+  <img alt="Phyrexian language Elesh Norn, Mother of Machines card style" src="https://media.wizards.com/2023/images/daily/cardstyle_ph_elesh_norn.png" />
+  </div>
+
+<p>Bring your Limited format mastery to this two-day event and compete on Day 1 in matches of Best-of-One and Best-of-Three <em>Phyrexia: All Will Be One </em>Sealed Deck to earn an invitation to Day 2, where you'll face opponents to progress through two successive <em>Phyrexia: All Will Be One </em>Traditional Draft events where the big prizes await!</p>
+<p>Get all the <a href="https://magic.wizards.com/en/news/mtg-arena/arena-open-phyrexia-all-will-be-one-march-4-5">details on the <em>Phyrexia: All Will Be One</em> Arena Open</a>!</p>  
+
+<h2 id="onefestival">Don't Miss the Final Welcome to Phyrexia Festival Events!</h2>
+<div style="text-align: center;">
+  <img alt="The Fair Basilica artwork by Marc Simonetti" src="https://media.wizards.com/2022/images/daily/Xt8JPsRTChGo.jpg" />
+</div>
+<p>Your tickets to tour the deepest spheres of New Phyrexia await through the end of this month, along with ichor card styles you can win to kick your collection style up a notch or two, or three, or fifteen—there are five card styles you can claim for wins in <em>each </em>of <a href="https://magic.wizards.com/en/news/mtg-arena/welcome-to-phyrexia-festival">the Welcome to Phyrexia Festival events</a> remaining!</p>
+<p>This series of Singleton events, continuing February 19–28, features unique emblems that add new strategic dimensions to your matches. See what your decks can do when they're amped up!</p>
+<ul>
+<li><strong>February 19–22: The Surgical Bay</strong><br />
+  <em>This 60-card Singleton event explores the Surgical Bay, the blue-dominated sphere of New Phyrexia. Here, cruel and disturbing experiments abound.</em></li></ul>
+<div style="text-align: center; max-width: 600px; margin: 10px auto 20px auto; border: 4px solid #0073b2; padding: 10px;">
+  <strong>The Surgical Bay Emblem</strong><br />
+  <span style="font-family: courier;">If you would proliferate, proliferate twice instead.</span>
+</div>
+
+<ul>
+<li><strong>February 22–25: The Dross Pits</strong><br />
+  <em>This 60-card Singleton event descends into the Dross Pits, the black-dominated sphere of New Phyrexia. It is a foul place dominated by death: your abilities that trigger from creatures dying will be doubled here.</em></li></ul>
+  <div style="text-align: center; max-width: 600px; margin: 10px auto 20px auto; border: 4px solid black; padding: 10px;">
+    <strong>The Dross Pits Emblem</strong><br />
+    <span style="font-family: courier;">If a creature dying causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.</span>
+  </div>
+
+<ul>
+<li><strong>February 25–28: The Fair Basilica</strong><br />
+  <em>This 60-card Singleton event arrives at the Fair Basilica, the white-dominated sphere of New Phyrexia. The glory of Elesh Norn cannot be denied in this place, and abilities that trigger from creatures entering the battlefield will be doubled in exultation of her generosity and wisdom.</em></li></ul>
+  <div style="text-align: center; max-width: 600px; margin: 10px auto 20px auto; border: 7px double #EBEBEB; padding: 10px;">
+    <strong>The Fair Basilica Emblem</strong><br />
+    <span style="font-family: courier;">If a permanent entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.</span>
+  </div>
+
+<p>Here are just a few card styles you can win in the festival events:</p>
+
+<div style="text-align: center;">
+<div class="resizing-cig" style="min-width:275px; width:25%; float:left;">
+<p class="rtecenter"><img alt="Tekuthal, Inquiry Dominus ichor card style reward from The Surgical Bay festival event" src="https://media.wizards.com/2023/images/daily/cardstyle_ichor_tekuthal.png" style="width: 265px; height: 370px;"></p>
+</div>
+
+<div class="resizing-cig" style="min-width:275px; width:25%; float:left;">
+<p class="rtecenter"><img alt="Drivnod, Carnage Dominus
+ichor card style reward from the Dross Pits festival event" src="https://media.wizards.com/2023/images/daily/cardstyle_ichor_drivnod.png" style="width: 265px; height: 370px;"></p>
+</div>
+
+<div class="resizing-cig" style="min-width:275px; width:25%; float:left;">
+<p class="rtecenter"><img alt="Mondrak, Glory Dominus
+ichor card style reward from the Fair Basilica festival event" src="https://media.wizards.com/2023/images/daily/cardstyle_ichor_mondrak.png" style="width: 265px; height: 370px;"></p>
+</div>
+</div>
+<p>Get all the <a href="https://magic.wizards.com/en/news/mtg-arena/welcome-to-phyrexia-festival" target="_blank">details on the Welcome to Phyrexia Festival</a> and grab these card styles before the event series ends!</p>
+
+<h2 id="schedule">Event Schedule</h2>
+<p>Events (excluding Midweek <em>Magic</em>) open at 8 a.m. PT and close to new entries at 8 a.m. PT (UTC-08:00) on the dates shown unless otherwise noted.</p>
+<p><em>Daylight saving time begins in the US on March 12, 2023, when clocks move forward 1 hour in the Pacific time zone. UTC offset will change to -07:00 on this date. Please be aware of the shift when determining event times for other time zones.</em></p>
+<h3>Midweek <em>Magic</em></h3>
+<p><em>NOTE: Now that </em>MTG Arena<em>'s game updates occur on Tuesdays, we've shifted Midweek </em>Magic<em> to start at 2 p.m. PT on Tuesdays and end on Thursdays at 2 p.m. PT (UTC-08:00) so play time isn't cut short.</em></p>
+<p><a href="https://magic.wizards.com/en/news/announcements/midweek-magic" target="_blank">Midweek <em>Magic</em></a> events open on Tuesdays at 8 a.m. PT and close to new entries on Thursdays at 8 a.m. PT (UTC-08:00).</p>
+<ul>
+<li>February 21–23: <em>Phyrexia: All Will Be One </em>Constructed</li>
+<li>February 28–March 2: Into the Future</li>
+<li>March 7–9: On the Edge</li>
+<li>March 14–16: <em>Strixhaven: School of Mages </em>Bot Draft</li>
+</ul>
+<h3>Quick Draft</h3>
+<ul>
+<li>February 17–March 2: <em>Phyrexia: All Will Be One</em></li>
+<li>March 3–17: <em>Innistrad: Crimson Vow</em></li>
+<li>March 17–31: <em>Phyrexia: All Will Be One</em></li>
+</ul>
+<h3>Other Events</h3>
+<ul>
+<li>February 19–22: The Surgical Bay</li>
+<li>February 22–25: The Dross Pits</li>
+<li>February 25–28: The Fair Basilica</li>
+<li>February 28–March 10: <em>Alchemy: Phyrexia </em>Premier Draft</li>
+<li>March 10–21: <em>Strixhaven: School of Mages </em>Premier Draft</li>
+</ul>
+
+<h2 id="premierplay">Premier Play Schedule</h2>
+<p>All times listed are Pacific time (UTC-08:00)*.</p>
+<p><strong>Qualifier tokens will be delivered through </strong><a href="https://magic.wizards.com/en/news/mtg-arena/mtg-arena-release-notes-alchemy-the-brothers-war#inbox" target="_blank"><strong>the <em>MTG Arena </em>player inbox</strong></a><strong>. Remember to claim them before the event starts!</strong></p>
+<h3>Qualifier Events</h3>
+<p><a href="https://magic.gg/events/qualifier-play-in" target="_blank">Qualifier Play-In events</a> are single-day tournaments in which players compete to earn invitations to that month's Qualifier Weekend events.</p>
+<p><a href="https://magic.gg/events/qualifier-weekend" target="_blank">Qualifier Weekend events</a> are two-day events in which eligible players compete for invitations to upcoming Arena Championship events.</p>
+<h4>February </h4>
+<ul>
+<li><strong>Qualifier Play-In</strong> – <strong>Best-of-One</strong><br /> February 18, 6 a.m. PT–February 19, 3 a.m. PT
+<ul>
+<li>Format: <em>Phyrexia: All Will Be One </em>Phantom Sealed </li>
+</ul>
+</li>
+<li><strong>Qualifier Play-In</strong> – <strong>Best-of-Three</strong><br /> February 24, 6 a.m. PT–February 25, 3 a.m. PT
+<ul>
+<li>Format: <em>Phyrexia: All Will Be One </em>Phantom Sealed </li>
+</ul>
+</li>
+<li><strong>Qualifier Weekend</strong><br /> February 25, 6 a.m. PT–February 26, 4 p.m. PT
+<ul>
+<li>Format: <em>Phyrexia: All Will Be One </em>Phantom Sealed </li>
+</ul>
+</li>
+</ul>
+<h3>Arena Open</h3>
+<p>The Arena Open Day 1 entry window begins at 6 a.m. PT and closes to new entries the following day at 3 a.m. PT (UTC-08:00)*. The Day Two entry window is 2 hours only, from 6 a.m. PT until 8 a.m. PT (UTC-08:00). </p>
+<ul>
+<li><a href="https://magic.wizards.com/en/news/mtg-arena/arena-open-phyrexia-all-will-be-one-march-4-5" target="_blank"><strong>Arena Open March 4–5</strong></a> 
+<ul>
+<li>Day 1, March 4: <em>Phyrexia: All Will Be One</em> Sealed (Best-of-One and Best-of-Three)</li>
+<li>Day 2, March 5: <em>Phyrexia: All Will Be One </em>Player Draft <br /> There are two Player Draft events on Day 2.</li>
+</ul>
+</li>
+</ul>
+<h3>Arena Championship 2</h3>
+<p>The <a href="https://magic.gg/events/arena-championship-2" target="_blank">Arena Championship</a> is an invitation-only, two-day virtual event for players who earn invitations through Qualifier Weekend events. </p>
+<ul>
+<li><a href="https://magic.gg/events/arena-championship-2-information-for-invitees" target="_blank"><strong>Arena Championship 2</strong></a>  <br /> March 18–19, 2023 
+<ul>
+<li><strong>Format</strong>:   <br /> Swiss: <em>Phyrexia: All Will Be One</em> Draft + Historic  <br /> Top 8: Historic</li>
+</ul>
+</li>
+</ul>
+<p>*<em>Note that the UTC offset for Pacific time will change to -07:00 on March 12, 2023, for daylight saving time.</em></p>
+
+<!-- February Ranked Season -->
+  <div style="width: 100%;
+    box-shadow: 2px 3px 6px lightgray; padding: 15px; border: 1px solid lightgray">
+  <h3 id="rankedseason" style="text-align: center;">February 2023 Ranked Season</h3>
+    <p>The February 2023 Ranked Season begins January 31 at 12:05 p.m. PT and ends on February 28 at 12 p.m. PT (UTC-08:00)</p>
+  <ul>
+  <li><strong>Bronze Reward</strong>: 1 <em>Phyrexia: All Will Be One</em> pack</li>
+  <li><strong>Silver Reward</strong>: 1 <em>Phyrexia: All Will Be One</em> pack + 500 gold</li>
+  <li><strong>Gold Reward</strong>: 2 <em>Phyrexia: All Will Be One</em> packs + 1,000 gold + Drown in Ichor card style</li>
+  <li><strong>Platinum Reward</strong>: 3 <em>Phyrexia: All Will Be One</em> packs + 1,000 gold + Drown in Ichor card style + Skrelv, Defector Mite card style</li>
+  <li><strong>Diamond Reward</strong>: 4 <em>Phyrexia: All Will Be One</em> packs + 1,000 gold + Drown in Ichor card style + Skrelv, Defector Mite card style</li>
+  <li><strong>Mythic Reward</strong>: 5 <em>Phyrexia: All Will Be One</em> packs + 1,000 gold + Drown in Ichor card style + Skrelv, Defector Mite card style</li>
+  </ul>
+      <div style="text-align: center;">
+    <img style="width: 265px; margin: 10px;" alt="Drown in Ichor card style" src="https://media.wizards.com/2023/images/daily/cardstyle_drown_in_ichor.png" />
+
+        <img style="width: 265px; margin: 5px;" alt="Skrelv, Defector Mite card style" src="https://media.wizards.com/2023/images/daily/cardstyle_skrelv_defector_mite.png" />
+    </div>
+    </div>
+
+<hr />
+<!-- Social -->
+<div style="width: 100%; text-align: center;">
+    <div style="display: inline-block; text-align: left; margin-left: auto; min-width: 330px; width: 55%; vertical-align: top;">
+        <div>
+            <div style="text-align: left;">
+              <h2 id="social">Follow <em>MTG Arena </em>Social</h2>
+  <p>Keep up with the latest <em>MTG Arena</em> news and announcements on:</p>
+  <ul>
+      <li><a href="https://twitter.com/MTG_Arena" target="_blank">Twitter @MTG_Arena</a></li>
+      <li><a href="https://www.facebook.com/MTGArena/" target="_blank">Facebook @MTGArena</a></li>
+      <li><a href="https://www.instagram.com/mtgarena/" target="_blank">Instagram @mtgarena</a></li>
+    <li><a href="https://www.tiktok.com/@mtgarena" target="_blank">TikTok @MTGArena</a></li>
+      <li><a href="https://www.youtube.com/channel/UCjfPrgkpGi_5GCMDhxJwfpA" target="_blank"><em>MTG Arena</em> YouTube channel</a></li>
+      <li><a href="https://discord.gg/wizards-magic" target="_blank"><em>Magic: The Gathering </em>Discord channel</a></li>
+  </ul>
+          </div>
+        </div>
+    </div>
+    <div style="display: inline-block; text-align: left; margin: -15px auto 0 0; min-width: 250px; width: 25%;">
+        <div>
+            <div style="text-align: center;">
+                <img style="width: 250px; border-radius: 20px;" alt="Puppet Jace pet of the month" src="https://media.wizards.com/2023/images/daily/pet_jace.gif" /><br />
+        Get the Puppet Jace pet of the month in the <em>MTG Arena</em> Store!
+            </div>
+        </div>
+    </div>
+</div>]]></description></item><item><title>Phyrexia: All Will Be One Vision Design Handoff Document, Part 2</title><link>https://magic.wizards.com/en/news/making-magic/phyrexia-all-will-be-one-vision-design-handoff-document-part-2</link><guid>https://magic.wizards.com/en/news/making-magic/phyrexia-all-will-be-one-vision-design-handoff-document-part-2</guid><description><![CDATA[<p><a href="https://magic.wizards.com/en/news/making-magic/phyrexia-all-will-be-one-vision-design-handoff-document-part-1" target="_blank">Last week</a>, I started showing off the handoff document I created when we turned over <em>Phyrexia: All Will Be One</em> from vision design to set design. Most of the text below is the actual document as it was turned in with my notes in boxes for greater explanation and context.</p>
 
 <h3>Oil Counters</h3>
 
@@ -46540,301 +46984,4 @@ Julian K.</p>
 <p>"<a href="https://magic.wizards.com/en/articles/archive/magic-story/episode-3-tests-2022-03-30" target="_blank">Episode 3: Tests</a>"<br />
 "<a href="https://magic.wizards.com/en/articles/archive/magic-story/episode-4-font-2022-04-04" target="_blank">Episode 4: The Font</a>"<br />
 "<a href="https://magic.wizards.com/en/articles/archive/magic-story/episode-5-hymn-angels-2022-04-05" target="_blank">Episode 5: Hymn of the Angels</a>"</p>
-]]></description></item><item><title>Comprehensive Rules Changes</title><link>https://magic.wizards.com/en/news/announcements/comprehensive-rules-changes-6-1-22</link><guid>https://magic.wizards.com/en/news/announcements/comprehensive-rules-changes-6-1-22</guid><description><![CDATA[<p>This is a summary of the changes to the official <em>Magic</em> rules that are planned to come with the release of <em>Commander Legends: Battle for Baldur's Gate</em>. If you're here looking for a summary of the new mechanics and how they work, please check out <a href="https://magic.wizards.com/en/articles/archive/feature/commander-legends-battle-baldurs-gate-mechanics-2022-05-18" target="_blank">the set's mechanics article</a>.</p>
-
-<p>Keep in mind that the rules are still under review at the time of this writing. When they are published, they can be found on our <a href="https://magic.wizards.com/en/game-info/gameplay/rules-and-formats/rules" target="_blank">rules page</a>. If there should be a discrepancy between this summary and the official rules, the official rules take precedence.</p>
-
-<h1>New and Updated rules</h1>
-
-<h2>Take the Initiative</h2>
-
-<h2>721</h2>
-
-<p>Listed first here for obvious reasons, this is the new section that defines the initiative designation and everything associated with it. The rules for restarting the game, subgames, and so on have all been bumped down a number.</p>
-
-<h2>Venture into Undercity</h2>
-
-<h2>205.3p</h2>
-
-<p>This new rule explains that Undercity, the new dungeon card in this set, also has a subtype. That subtype is Undercity. It's worth noting that while this subtype is used by the "venture into Undercity" ability (see below), no cards interact with dungeon types.</p>
-
-<h2>701.46d</h2>
-
-<p>This is the rule that explains how the "venture into Undercity" variant of venture into the dungeon works.</p>
-
-<h2>Choose a Background</h2>
-
-<h2>702.124h</h2>
-
-<p>This rule explains choose a Background, a new variant of the partner ability. It means "you may designate two cards as your commander as long one of them is this card and the other is a legendary Background enchantment." This does not combine with any other partner ability, and only creatures with the choose a Background ability allow you to designate a Background enchantment as an additional commander.</p>
-
-<h2>Other rules changes</h2>
-
-<h2>107.3n</h2>
-
-<p>This is a new addition to the list of ways X can be used on a card. One card, Storm King's Thunder, creates a delayed triggered ability that needs to know the X value that was paid for the spell. This rule makes that work.</p>
-
-<h2>111.5</h2>
-
-<p>This is the rule that says if a token can't enter the battlefield, it isn't created. Some added words here cover the case where you would make a token that is a copy of an instant or sorcery card. As you might expect, that token also won't be created.</p>
-
-<h2>112.2a</h2>
-
-<p>If you copy a spell on the stack, rule 112.2 tells you that the owner is the player who put it on the stack. However, many effects instruct a player to create a copy of a card, usually in exile, and then cast the copy. This new subrule explicitly says the owner of that copy is the player who is instructed to create it and given permission to cast it.</p>
-
-<h2>112.4</h2>
-
-<p>This general rule was slightly too broad. It said that if an effect changes any characteristics of a permanent spell, that continues to apply to the permanent the spell becomes. Rule 400.7 limits the scope of that to only certain effects, and this rule is now worded to better reflect that.</p>
-
-<h2>115.9</h2>
-
-<p>Wyll's Reversal is a new card that can only target a spell or ability "with one or more targets." 115.9 was the rule that handled looking for a spell with a single target, so it has been updated slightly to handle looking for any given number of targets.</p>
-
-<h2>400.7a</h2>
-
-<p>This is the rule that explains which effects applying to a permanent spell can continue to apply to the permanent it becomes on the battlefield. A tweak to this rule was missed in the last update, and that led to some confusion over the functionality of Henzie "Toolbox" Torre. Specifically, this change ensures that if you cast a spell with blitz using Henzie's effect, the permanent that spell becomes on the battlefield will continue to have blitz.</p>
-
-<h2>506.6</h2>
-
-<p>Firkraag, Cunning Instigator has a triggered ability that needs to know if a creature in combat "had to attack." This new addition to the combat phase rules defines what that means. Specifically, a creature "had to attack" if one or more effects requiring that creature to attack applied to it at the time that attackers were declared. This doesn't apply to creatures that entered the battlefield attacking because they were never declared as attackers. Note that there are some strange situations where the only legal attacks a player can declare include attacking with a creature that didn't actually have any such effects applying to it. In that case, Firkraag's ability will ignore those creatures.</p>
-
-<h2>601.4</h2>
-
-<p>This new rule expands a bit on how players make decisions while casting a spell. Specifically, the decisions listed in rule 601.2b, including things like choosing a spell's modes, the value of X in its cost, and whether they will pay any additional or alternative costs. Usually, players casting spells make these decisions in the order listed in that rule. For some spells, however, these decisions need to be made in a different order. For example, Inscription of Abundance is a modal spell with kicker and the text "Choose one. If this spell was kicked, choose any number instead." Choosing whether to pay a kicker cost is listed later in rule 601.2b than choosing modes, but for this spell, you need to choose whether to pay the kicker cost first to know how many modes you can choose. In all the discussion about Henzie, (see 400.7a above), we also saw some confusion about how players make choices in this situation. The new 601.4 is there to explicitly clear that up. Specifically for Henzie, you may use the blitz ability that it grants to cast a creature spell with an X in its mana cost if the chosen value for X is high enough to make the creature's mana value 4 or greater.</p>
-
-<h2>607.3</h2>
-
-<p>This is the rule that explains what to do if an object with a linked ability that refers to an exiled card has exiled more than one card. An added sentence explains that if an ability creates a token that is a copy of "the exiled card," and there is more than one exiled, that ability instead creates a token for each of those cards that is a copy of that card. Usually, this situation involves the first part of that ability having exiled a merged or melded permanent that was made up of several component cards.</p>
-
-<h2>608.3</h2>
-
-<p>This rule and its subrules explain how to resolve a permanent spell. Most of the words have changed here, but there isn't really a functional change to speak of. So why update it? Let me explain. Or skip the next paragraph and read the short version. It's up to you.</p>
-
-<p>Up until now, this section stated that there was only one step in the process of resolving a permanent spell: just put the permanent on the battlefield! Easy, right? There was an exception listed for Auras, but that was also easily understood. Then, more recently, we added an exception for copies of permanent spells, then an exception for mutate. There were also a few other exceptions or additions to the process that were kind of hidden throughout the rules. For example, resolving a bestowed Aura with an illegal target is very similar to dealing with the same situation for mutate, but only mutate was mentioned in this section. Bestow felt left out! Some abilities can even cause permanent spells to have other effects as they resolve. All in all, there wasn't really anything <em>wrong</em> with individual rules in the section (or even the ones not in that section), but it was beginning to stack up with the kind of issues that bother the more pedantic humans among us (which I'm not ashamed to say includes me).</p>
-
-<p>In conclusion, we decided to streamline it and make things clearer.</p>
-
-<h2>700.8</h2>
-
-<p>This rule and its subrules explain the party mechanic. One new card, Stick Together, instructs players to "choose a party" from among creatures they control. This is different from previous party effects, which only counted the number of creatures in your party. The section has been reworded and a new subrule added to explain that, to choose a party, each player chooses up to one creature they control for each of the appropriate creature types (Cleric, Rogue, Warrior, and Wizard).</p>
-
-<h2>702.21b</h2>
-
-<p>Minthara, Merciless Soul has "Ward {X}, where X is the number of experience counters you have." A new ward subrule explains that the value of X is determined as the ward ability resolves. It isn't locked in when it triggers. This means that if you get more experience counters between the time it triggers and the time it resolves, your opponent will need to pay that much more mana to keep their spell from being countered.</p>
-
-<h2>702.122d</h2>
-
-<p>The rule for abilities that trigger when a Vehicle "becomes crewed" is expanded slightly to cover intervening "if" clauses that want information about the creatures that crewed it. That clause refers only to creatures that were tapped to pay the cost of the crew ability that caused it to trigger, not creatures that crewed it any other time.</p>
-
-<h2>702.124i</h2>
-
-<p>As we began to add variants of the partner ability to the game that don't use the word "partner," we realized that this would create confusion over what it means to "have partner." We've decided that, if a card refers to another card that has partner, it means only the partner and "partner with" mechanics, and not any other variants of partner.</p>
-
-<h2>702.145</h2>
-
-<p>This is the rule for the daybound keyword ability. As written, it would interact unintuitively in some corner cases involving a Clone entering the battlefield as a copy of daybound creature at night (a weird enough thing on its own). In that case, since the Clone can't enter the battlefield transformed, the rules for double-faced cards prevented the Clone from entering the battlefield at all! The daybound rule has been modified to only apply to permanents represented by transforming double-face cards.</p>
-
-<h2>705.1–2</h2>
-
-<p>These are the rules about flipping a coin. Like the steps for resolving a permanent spell, these have been reordered and streamlined a bit, but the function of these rules is largely unchanged, with one exception. Previously, the rules didn't technically require you to determine who wins or loses a coin flip unless the effect instructing you to flip a coin mentioned a winner or loser. This was a problem for Tavern Scoundrel, which has an ability that doesn't state it needs a winner, but still obviously does. Tavern Scoundrel is now more adequately covered by these rules.</p>
-
-<h2>903.13e</h2>
-
-<p>We used to call this subrule in the Commander Draft section "The Prismatic Piper" rule, as it covered how to use Prismatic Piper as your commander in the draft. I guess now we'll have to start calling it "The Prismatic Piper and Faceless One" rule. It just rolls right off the tongue.</p>
-
-<h2>New Subtypes</h2>
-
-<p><strong>Creature Types</strong></p>
-
-<p>Gith, Walrus</p>
-
-<p><strong>Planeswalker Types</strong></p>
-
-<p>Elminster, Minsc, Tasha</p>
-
-<p><strong>Enchantment Types</strong></p>
-
-<p>Background</p>
-
-<p><strong>Dungeon Types</strong></p>
-
-<p>Undercity</p>
-
-<h2>New Glossary Entries</h2>
-
-<p>Background, choose a Background, initiative, venture into [quality]</p>
-
-<hr />
-<p><a href="https://magic.wizards.com/en/articles/archive/news/commander-legends-battle-baldurs-gate-update-bulletin-2022-06-01">Introduction</a><br />
-Comprehensive Rules Changes<br />
-<a href="https://magic.wizards.com/en/articles/archive/news/oracle-changes-2022-06-01">Oracle Changes</a></p>
-]]></description></item><item><title>Dominaria United We Stand, Part 1</title><link>https://magic.wizards.com/en/news/making-magic/dominaria-united-we-stand-part-1</link><guid>https://magic.wizards.com/en/news/making-magic/dominaria-united-we-stand-part-1</guid><description><![CDATA[<p>Welcome to the first week of <a href=" https://magic.wizards.com/products/dominaria-united" onclick="ga('send', 'event', {eventCategory:'daily-mtg-home', eventAction:'internal-click', eventLabel:'dmu-daily-article-pdp'});" target="_blank"><em>Dominaria United</em></a> previews. I'll begin telling the story of the set's design, introduce the Vision Design team, and show off three cool preview cards. There's a lot to say, so let's get to it.</p>
-
-<h1>A <em>Dominaria United</em> Front</h1>
-
-<p>Before I begin telling the design story, let me introduce you to the <em>Dominaria United</em> (DMU) Vision Design team. I'll be introducing you to the Set Design team next week. As always, I'm having the lead of the Vision Design team, in this case Ethan Fleischer, introduce his team and himself.</p>
-
-<div class="collapsibleBlock">
-<dl class="showHideListItems" style="border: 1px solid black;">
-	<dt>
-	<h2>Click here to meet the Vision Design team</h2>
-	</dt>
-	<dd>
-	<div class="wrapper">
-	<div>
-	<p><strong>Zac Elsik</strong><br />
-	Zac is a deck brewer par excellence; perhaps his most famous creation is the Lantern Control deck. During <em>Dominaria United</em> vision design, Zac was a member of the Play Design team. His deep well of experience playing Commander and a variety of competitive formats made him an essential member of the team, as he was able to anticipate play patterns and set power-level targets for cards to help us "find the fun" more quickly.</p>
-
-	<p><strong>Bryan Hawley</strong><br />
-	Bryan is a manager of many of the <em>Magic</em> designers, but like every successful member of Studio X, he has a portfolio of skills and responsibilities that is unique to himself. Bryan is not only a leader of designers but also a skilled designer himself, having led several design teams. His experience with crafting and playing Limited formats helped to establish <em>Dominaria United</em>'s structure.</p>
-
-	<p><strong>Ari Nieh</strong><br />
-	During <em>Dominaria United</em> vision design, Ari was leading the design effort for <em>The Brothers' War</em>. One of my goals for <em>Dominaria United</em> was for it to set up the following three sets, both creatively and mechanically. Having Ari embedded on the <em>Dominaria United</em> team ensured that we could coordinate our efforts. Though she has since moved on from Wizards, you will see the fruits of Ari's efforts in a few short months!</p>
-
-	<p><strong>James Rose</strong><br />
-	James has worked as a game designer on many of our digital games over the years. He's also served on <em>Magic</em> design teams, including <em>Throne of Eldraine</em> and <em>Innistrad: Midnight Hunt</em>, and I have found that he's a very good card designer. I love having him on my design teams because he understands just what kinds of cards the set needs at any given time. I also worked with James designing <em>Dominaria United</em>'s Commander decks.</p>
-
-	<p><strong>Mark Rosewater</strong><br />
-	I assume that Mark needs no introduction here! Mark's position as head designer for <em>Magic </em>means that he has an excellent understanding of what the sets before and after <em>Dominaria United</em> were about, which ensured that <em>Dominaria United</em>'s gameplay would be distinctive. Of course, Mark had led the Vision Design team for the 2018 <em>Dominaria</em> set, so he guided the team to ensure that there would be a feeling of continuity between that set and <em>Dominaria United</em>.</p>
-
-	<p><strong>Annie Sardelis</strong><br />
-	During <em>Dominaria United</em> vision design, Annie was a member of the Worldbuilding team and served as the first creative lead for <em>Dominaria United</em>. We knew that <em>Dominaria United</em> would have lots of legendary creatures, so Annie and I spent many hours hammering out ideas for characters that would fit the setting and story. Annie has since moved over to my side of the office; she's a senior game designer leading design teams of <em>Magic</em> sets.</p>
-
-	<p><strong>Cameron Williams</strong><br />
-	Cameron was an intern, learning about game design from us as part of his college education. I'm a big believer in "learning by doing," so I heaped plenty of responsibilities on Cameron. He rewarded me with lots of fresh, new ideas. He has since finished school, and we've hired him full time as a game designer.</p>
-
-	<p><strong>Ethan Fleischer</strong><br />
-	By now, I'm a veteran <em>Magic</em> designer who has led many design teams. I have a special affinity for Dominaria, having led the exploratory design team for <em>Dominaria</em>. I'm also a Dominaria lore expert; I'm pretty sure I've read everything there is to read about the plane. I parlayed that experience into finding the important things to emphasize so that <em>Dominaria United</em> would support our larger story efforts for the Phyrexian arc.</p>
-	</div>
-	</div>
-	</dd>
-</dl>
-</div>
-
-<h1>The History of Dominaria</h1>
-
-<p>Dominaria goes way back to the beginning of <em>Magic</em>. The idea of the Multiverse was there at the game's beginning. Originally, it had a name. It was called Dominia. The center of Dominia was a plane called Dominaria. Having the Multiverse and the central plane being so close in name confused people, so we ended up dropping Dominia as the name and just called it "the Multiverse" instead. (And this was before multiverses were the hot thing in pop culture.) Looking back, I'm surprised we didn't call the Multiverse Dominia and get a new name for the central plane, but all of this was before my time at Wizards.</p>
-
-<p>Anyway, <em>Alpha</em> didn't do a lot to define where it took place, but the general thought was that it was all (or at least mostly) Dominaria. There wasn't really any story, but there were several proper names (places like Llanowar and Benalia and people like Urza and Mishra) that gave the set a feeling of specificity even if it wasn't explained.</p>
-
-<p>The first expansion, <em>Arabian Nights</em>, went somewhere else (although it wasn't named as Rabiah within the set), but the second expansion, <em>Antiquities</em>, returned to Dominaria. <em>Antiquities</em>, for the first time, had a story and started using some of the proper names. Urza wasn't just a guy who liked eyewear but the protagonist in a giant epic story (<em>The Brothers' War</em>, coming soon).</p>
-
-<p><em>Legends</em>, the next set, wasn't located on a single plane, but the following set, <em>The Dark</em>, was. Again, we returned to being solely on Dominaria. Even though the Multiverse existed, <em>Magic</em> stuck around on Dominaria for many years. <em>Fallen Empires</em> and <em>Ice Age</em> were on Dominaria. <em>Homelands</em> was the first set since <em>Arabian Nights</em> to be on another plane (Ulgrotha), but the following set, <em>Alliances</em>, returned us to Dominaria. The whole next "<em>Magic</em> year" (<em>Mirage</em>, <em>Visions</em>, and <em>Weatherlight</em>) were all on Dominaria.</p>
-
-<p>We now get to the point where Michael Ryan and I convinced the company that we should be telling an epic story, the <em>Weatherlight</em> Saga. Part of that, we argued, should include going to other planes, so we pitched a three-year arc where the first two years were on other planes and the third year, the resolution to the story, was back on Dominaria (although in the future, but that version of the story never came to pass).</p>
-
-<p><em>Tempest</em> block (<em>Tempest</em>, <em>Stronghold</em>, and <em>Exodus</em>) was on the plane Rath. Then Michael and I were removed from the story, and the story team returned (mostly) to Dominaria for the next year's block (<em>Urza's Saga</em>, <em>Urza's Legacy</em>, and <em>Urza's Destiny</em>). The following block did hit the second plane Michael and I had pitched (although changed in numerous ways), but only stayed there for one set (<em>Mercadian Masques</em>). <em>Nemesis</em> returned to Rath and <em>Prophecy</em> came back to Dominaria.</p>
-
-<p>The following block (<em>Invasion</em>, <em>Planeshift</em>, and <em>Apocalypse</em>) not only returned to Dominaria but had Rath overlayed on Dominaria, meaning the only plane we'd spent multiple sets on outside of Dominaria was now part of Dominaria.</p>
-
-<p>The next two blocks (<em>Odyssey</em>, <em>Torment</em>, and <em>Judgment</em>, then <em>Onslaught</em>, <em>Legions</em>, and <em>Scourge</em>) stayed on Dominaria, though it went to a whole new continent, Otaria. It wasn't until the following block (<em>Mirrodin</em>, <em>Darksteel</em>, and <em>Fifth Dawn</em>) that we really started embracing the idea that <em>Magic</em> is a multiverse and that we could be introducing a lot of new planes. <em>Magic </em>would return to Dominaria for the <em>Time Spiral</em> block (<em>Time Spiral</em>, <em>Planar Chaos</em>, and <em>Future Sight</em>) and then not return for twelve years.</p>
-
-<p>When we designed original <em>Dominaria</em>, we had a challenge on our hands, because <em>Magic</em> had really changed how we treated planes, and Dominaria was a lot of different worlds all on the same plane. The goal of the design was to give it an identity more concrete than "a hodgepodge of lots of things." In the end, we ended up focusing on the history of the plane, on the fact that both within the game and within the cosmology a lot had happen on Dominaria, and all that history had shaped the plane. As we liked to say, "It's a plane whose present is shaped by its past." Dominaria went on to be a much beloved set, and we said that we were going to want to revisit it at some point.</p>
-
-<p>"Some point" became four years later as we realized that the larger story we wanted to tell really needed a chapter (or rather two chapters) to take place on Dominaria. This meant Ethan and his Vision Design team needed to figure out what the return would look like. The first thing we did was look back at <em>Dominaria</em> to see what we'd done. The overview of the plane had three components:</p>
-
-<p><strong>High fantasy</strong> – Original <em>Magic</em>, including Dominaria, had focused a lot on traditional high fantasy. As <em>Magic</em> had traveled the Multiverse, exploring different kinds of worlds, we'd drifted away from high fantasy to explore a lot of other genres, and mixed genres, of fantasy, so we wanted the return to Dominaria to be a return to the high-fantasy trappings that the game had started with</p>
-
-<p><strong>Rich history</strong> – A lot took place on Dominaria, not just in its history, but within the history of the game. No plane had been the home to more sets, so we wanted to make sure that <em>Dominaria</em> was making reference to its deep past.</p>
-
-<p><strong>Vibrant renewal</strong> – The last we'd seen Dominaria was <em>Time Spiral</em> block, and it was basically post-apocalyptic. The feedback we got from the players was that it was a bit of a downer to see this plane they loved so badly damaged, so we decided in our long absence that the plane had rebounded and we were going to embrace Dominaria being a place of hope rather than despair. Yeah, it had been through a lot, but it always survived and bloomed.</p>
-
-<p>We knew from the start that we wanted to embrace all three of these aspects, as it was the core of what made Dominaria Dominaria. We began by looking back at what<em> Dominaria </em>had done mechanically.</p>
-
-<p><strong>Sagas </strong>– <em>Dominaria </em>was the set that introduced Sagas. We wanted to play up the role of history through stories, and Saga was a new type of enchantment we created to represent that. Since its introduction, Sagas have gone on to become popular and deciduous, so it seemed like a sure thing to have them return.</p>
-
-<p>We were interested, though, in seeing if we could add a little twist to them. We tried several different things, but the most interesting idea was "read ahead" Sagas. The idea behind them was that you didn't have to start with chapter one. Like any story, you could read ahead and start the story further along. This meant you wouldn't get all the effects, but it did allow you to get a later effect sooner. These Sagas were specifically designed to maximize you wanting to do this (although, even normal Sagas tend to grow in power of effect over time). In vision design, we didn't know if we wanted all the Sagas to do this or a single cycle, but Set Design found enough designs that all the Sagas in <em>Dominaria United</em> are read-ahead Sagas.</p>
-
-<p>This brings us to our first preview card. Besides being read ahead, all the Sagas in this set tell a story about something important to the history of Dominaria. The plane had so much story that we had plenty left over from the last batch of Sagas to tell ten more stories. For example, let's hear the story of The World Spell.</p>
-
-<div class="collapsibleBlock">
-<dl class="showHideListItems" style="border: 1px solid black;">
-	<dt>
-	<h2>Click here to see The World Spell</h2>
-	</dt>
-	<dd>
-	<div class="wrapper">
-	<div>
-	<p class="rtecenter"><img alt="The World Spell" src="https://media.wizards.com/2022/dmu/en_SL65s78Dlb.png" /></p>
-
-	<p>The World Spell was a spell cast by Freyalise to end the ice age (it was the ending of the <em>Ice Age</em> story). The spell lets you plan ahead and then create your own version of rebirth (one where you have more stuff).</p>
-	</div>
-	</div>
-	</dd>
-</dl>
-</div>
-
-<p><strong>Legendary creatures</strong> – Another major theme of <em>Dominaria</em> was playing up all the famous characters from the plane. More so than any other plane, Dominaria is full of characters the audience knows from past sets. Some were the characters as you knew them. Others were ancestors or people carrying on a certain title or mission. The theme was such a big part of the set, every <em>Dominaria </em>booster came with a legendary creature.</p>
-
-<p>Well, if something works, why break it, so <em>Dominaria United</em> continues both the legendary creature theme and the one-legend-per-booster distribution. That brings us to our second preview card showing off a new version of a character from Dominaria's past, Braids.</p>
-
-<div class="collapsibleBlock">
-<dl class="showHideListItems" style="border: 1px solid black;">
-	<dt>
-	<h2>Click here to see the new Braids</h2>
-	</dt>
-	<dd>
-	<div class="wrapper">
-	<div>
-	<p class="rtecenter"><img alt="Braids, Arisen Nightmare" src="https://media.wizards.com/2022/dmu/en_2ENijLyz8z.png" /> <img alt="Showcase Braids, Arisen Nightmare" src="https://media.wizards.com/2022/dmu/en_e8USHqxqdw.png" /></p>
-
-	<p>Braids first appeared in <em>Odyssey</em> as a member of the Cabal. She would later get an alternate-reality version in <em>Planar Chaos</em>.</p>
-
-	<p class="rtecenter">[card mvid="29947"]Braids, Cabal Minion[/card][card mvid="124316"]Braids, Conjurer Adept[/card]</p>
-
-	<p>In <em>Dominaria United</em>, we learn that she's still around, although in a slightly different form.</p>
-	</div>
-	</div>
-	</dd>
-</dl>
-</div>
-
-<p><strong>Legendary matters</strong> – A connected theme from having a high number of legendary creatures was also having cards that mechanically care about them. <em>Dominaria </em>had this as a smaller theme, and <em>Dominaria United</em> brings it back.</p>
-
-<p><strong>Multicolor</strong> – Part of capturing the legendary creature theme was allowing ourselves to create legendary creatures that were multiple colors to increase their use in Commander. This theme was popular in <em>Dominaria</em>, and we considered it an extension of the legendary creature theme, so it too returns in <em>Dominaria United</em>.</p>
-
-<p><strong>Throwbacks</strong> – Part of capturing the rich history of the plane is making creative callbacks, but it's equally important to make mechanical callbacks. Characters are part of the game's history, but this is equally true of its cards. <em>Dominaria </em>made a lot of mechanical references to old cards from Dominarian sets. <em>Dominaria United</em> continues this theme. It also brings us to our third and final preview card.</p>
-
-<div class="collapsibleBlock">
-<dl class="showHideListItems" style="border: 1px solid black;">
-	<dt>
-	<h2>Click here to meet the latest Maro</h2>
-	</dt>
-	<dd>
-	<div class="wrapper">
-	<div>
-	<p class="rtecenter"><img alt="Territorial Maro" src="https://media.wizards.com/2022/dmu/en_sSVBEfo7yf.png" /></p>
-
-	<p>The original Maro showed up in <em>Mirage</em>. [autocard]Multani, Maro-Sorcerer[/autocard] showed up in <em>Urza's Legacy</em>, and [autocard]Molimo, Maro-Sorcerer[/autocard] showed up in <em>Invasion</em>.</p>
-
-	<p class="rtecenter">[card mvid="3397"]Maro[/card][card mvid="12440"]Multani, Maro-Sorcerer[/card][card mvid="23138"]Molimo, Maro-Sorcerer[/card]</p>
-
-	<p>Maro always has variable power and toughness, but the variable changes from card to card. Territorial Maro makes use of domain, a mechanic originally seen, though unnamed at the time, in<em> Invasion</em>. This theme wasn't part of the initial vision design. It got added in set design, which I'll talk about in next week's part of the story.</p>
-	</div>
-	</div>
-	</dd>
-</dl>
-</div>
-
-<p><strong>Historic</strong> – One of the biggest challenges of <em>Dominaria</em> was capturing the history theme. We accomplished this by using what we call batching, where we make a new term that encapsulates several items. Historic took three components, legendary permanents (and spells) that convey characters from the past, artifacts that can represent objects of the past, and Sagas that are stories of the past, and combined them into a single thing that cards could reference.</p>
-
-<p>The original plan for <em>Dominaria United</em> was to bring historic back. The following set <em>The Brothers' War</em> was going to have an artifact theme (like the set that introduced the story, <em>Antiquities</em>), so the thought was that we'd be setting ourselves up for some synergy between the sets. Unfortunately, it turned out to be too much synergy and the worry was that locking in historic cards in <em>Dominaria United</em> would cause set design and play design issues when we were making <em>The Brothers' War</em>, so historic was removed in set design.</p>
-
-<p><strong>Kicker</strong> – This mechanic was the opposite of historic. Vision Design felt we were bringing back enough things from original <em>Dominaria</em> and wanted to make space for something new, so we purposefully left kicker out of the vision design. When historic got removed, they put kicker in to retain enough mechanical connection to <em>Dominaria</em>. More on kicker's inclusion next week.</p>
-
-<p><strong>Legendary spells</strong> – Of all the mechanics in <em>Dominaria</em>, legendary spells were the worst received. They were spells you could only cast if you controlled a legendary creature. The set was already bringing several things back from <em>Dominaria</em>, and we didn't feel legendary spells were needed, so we left them out. We did spend some time talking about whether there was a new way to do them, but in the end decided we'd rather focus our energies elsewhere.</p>
-
-<h1>Returning Home</h1>
-
-<p>This brings us to the end of today's column. As always, I'm eager for any feedback on today's column or any of the elements of <em>Dominaria United</em> I talked about today. You can <a href="mailto:making.magic@hotmail.com">email</a> me or contact me through any of my social media accounts (<a href="https://twitter.com/maro254" target="_blank">Twitter</a>, <a href="http://markrosewater.tumblr.com/" target="_blank">Tumblr</a>, <a href="http://instagram.com/mtgmaro" target="_blank">Instagram</a>, and <a href="https://www.tiktok.com/@markrosewater" target="_blank">TikTok</a>).</p>
-
-<p>Join me next week when I continue the design story picking up with the set design of <em>Dominaria United</em>.</p>
-
-<p>Until then, may you be able to go home again.</p>
-
-<ul>
-	<li><a href="https://cdn.transistor.fm/file/transistor/m/shows/21454/40351799959e27a50b1c46d98131a787.mp3" target="_blank"><strong>Episode 956</strong></a> Use Case</li>
-	<li><a href="https://cdn.transistor.fm/file/transistor/m/shows/21454/9c7902368e0dc7810b28dd5312e5261f.mp3" target="_blank"><strong>Episode 955</strong></a> San Diego Comic-Con 2022</li>
-	<li><a href="https://cdn.transistor.fm/file/transistor/m/shows/21454/bd280fa35658eb605079f549ee5dc43e.mp3" target="_blank"><strong>Episode 954</strong></a> Broadwaycon 2022</li>
-</ul>
 ]]></description></item></channel></rss>
